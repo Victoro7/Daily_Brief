@@ -324,27 +324,126 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600'
          '&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">')
 
-JS = """
+INDEX_CSS = """
+:root{--bg:#f5f0e6;--card:#fffdf8;--text:#141414;--muted:#6e675c;--line:#e2dacb;
+--accent:#b3261e;--accent-soft:#f6e1dc;--c-funding:#0f6b6b;--c-reg:#2a4b8d;--c-pol:#a8660c;
+--c-sci:#b0245a;--c-ind:#6e675c}
+@media (prefers-color-scheme:dark){:root{--bg:#111111;--card:#1b1b1a;--text:#f5f0e6;--muted:#a39d92;
+--line:#2c2b29;--accent:#ef5a4c;--accent-soft:#3b1714;--c-funding:#58c4c4;--c-reg:#8fb0f0;
+--c-pol:#e0a24d;--c-sci:#f07fa8;--c-ind:#a39d92}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+header{position:sticky;top:0;z-index:2;background:var(--bg);padding:14px 16px 12px;border-bottom:1px solid var(--line)}
+h1{margin:0;font:700 23px/1.15 Georgia,"Times New Roman",serif;letter-spacing:-.01em}
+.subrow{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:4px 0 12px}
+.updated,#count{margin:0;color:var(--muted);font-size:13px}
+.jump-select{-webkit-appearance:none;appearance:none;flex:none;min-width:0;max-width:52%;border:1px solid var(--line);border-radius:999px;background-color:var(--card);color:var(--text);font-family:inherit;font-size:13px;font-weight:600;padding:6px 28px 6px 12px;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%238a8378' stroke-width='1.6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 11px center}
+.filters{display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:0 16px;scrollbar-width:none}
+.filters::-webkit-scrollbar{display:none}
+.filters button{flex:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-family:inherit;font-size:14px;font-weight:600;background:var(--card);color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+.filters .n{display:none}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.controls input,.controls select{font-family:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);min-width:0}
+.controls input{flex:1 1 100%;min-width:0}
+.controls select{flex:1 1 0;max-width:100%}
+.brief-row{margin:10px 0 0}
+.brieflink{font-weight:600;color:var(--accent)}
+main{max-width:680px;margin:0 auto;padding:4px 16px 32px}
+.month{scroll-margin-top:140px}
+.month[hidden],li[hidden]{display:none}
+h2{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:22px 0 8px}
+h2 span{display:none}
+ul{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+li+li{border-top:1px solid var(--line)}
+li.first-visible{border-top:0}
+li a{display:block;padding:12px 14px;color:inherit;text-decoration:none}
+li a:active{background:var(--accent-soft)}
+.tag{display:inline-block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--cc,var(--c-ind));margin-bottom:3px}
+.headline{font-weight:600}
+.meta{margin-top:3px;font-size:13px;color:var(--muted)}
+.more{display:block;width:100%;margin-top:8px;padding:11px;border-radius:12px;border:1px solid var(--line);background:transparent;color:var(--accent);font-family:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.more[hidden]{display:none}
+.empty{margin-top:24px;padding:14px;color:var(--muted);text-align:center}
+footer{margin-top:28px;font-size:12px;color:var(--muted);text-align:center}
+.jump{display:none}
+@media (hover:hover){li a:hover{background:var(--accent-soft)}li a:hover .headline{text-decoration:underline;text-underline-offset:3px}.filters button:hover{color:var(--text)}.more:hover{background:var(--card)}}
+@media (min-width:900px){
+body{display:grid;grid-template-columns:270px minmax(0,720px);justify-content:center;column-gap:48px;padding:0 32px}
+header{position:sticky;top:0;align-self:start;height:100vh;overflow-y:auto;padding:40px 0 24px;border-bottom:0;background:transparent}
+h1{font-size:25px}
+.subrow{margin:8px 0 26px}
+.jump-select{display:none}
+.filters{flex-direction:column;gap:4px;overflow:visible;margin:0;padding:0}
+.filters button{display:flex;justify-content:space-between;align-items:center;width:100%;text-align:left;border-color:transparent;background:transparent;border-radius:10px;padding:9px 12px;font-size:15px}
+.filters button[aria-pressed="true"]{background:var(--accent-soft)}
+.controls{flex-direction:column;margin-top:22px}
+.controls input,.controls select{width:100%;flex:none}
+.jump{display:block;margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+.jump p{margin:0 0 8px 12px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.jump a{display:block;padding:6px 12px;border-radius:8px;font-size:14px;color:var(--muted);text-decoration:none}
+.jump a:hover{color:var(--text);background:var(--card)}
+.jump a[hidden]{display:none}
+main{max-width:none;margin:0;padding:28px 0 48px}
+.month{scroll-margin-top:24px}
+li a{padding:14px 18px}
+.headline{font-size:17px}
+}
+"""
+
+INDEX_JS = """
 (function(){
-const items=[...document.querySelectorAll('.item')],days=[...document.querySelectorAll('.day')];
-const q=document.getElementById('q'),src=document.getElementById('src'),win=document.getElementById('win'),count=document.getElementById('count');
+const LIMIT=8;
+const items=[...document.querySelectorAll('.item')],months=[...document.querySelectorAll('.month')];
+const q=document.getElementById('q'),src=document.getElementById('src'),win=document.getElementById('win');
+const count=document.getElementById('count'),none=document.getElementById('none'),jump=document.querySelector('.jump-select');
+const expanded=new Set();
 let cat='All';
-document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{cat=b.dataset.cat;
-document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));apply();}));
-function apply(){const term=q.value.trim().toLowerCase(),s=src.value,w=+win.value,now=Date.now();let n=0;
-items.forEach(li=>{const ok=(cat==='All'||li.dataset.cat===cat)&&(s==='All'||li.dataset.src===s)&&
-(!w||now-(+li.dataset.ts)<=w*864e5)&&(!term||li.dataset.text.includes(term));li.hidden=!ok;if(ok)n++;});
-days.forEach(g=>g.hidden=!g.querySelector('.item:not([hidden])'));count.textContent=n+(n===1?' story':' stories');}
-[q,src,win].forEach(e=>e.addEventListener('input',apply));apply();})();
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{cat=b.dataset.cat;
+document.querySelectorAll('.filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));expanded.clear();apply();window.scrollTo(0,0);}));
+function apply(){
+const term=q.value.trim().toLowerCase(),s=src.value,w=+win.value,now=Date.now();
+const matches=li=>(cat==='All'||li.dataset.cat===cat)&&(s==='All'||li.dataset.src===s)&&
+(!w||now-(+li.dataset.ts)<=w*864e5)&&(!term||li.dataset.text.includes(term));
+let total=0;
+months.forEach(m=>{
+const lis=[...m.querySelectorAll('li.item')],match=lis.filter(matches);
+const open=expanded.has(m.id);
+const limit=match.length<=LIMIT+2?match.length:LIMIT;
+let shown=0;
+lis.forEach(li=>{const pos=match.indexOf(li),show=pos!==-1&&(open||pos<limit);
+li.hidden=!show;li.classList.toggle('first-visible',show&&shown===0);if(show)shown++;});
+m.hidden=match.length===0;
+m.querySelector('h2 span').textContent=match.length;
+const btn=m.querySelector('.more');
+btn.hidden=!open&&match.length-limit<=0;
+btn.textContent=open?'Show less':'Show more';
+const link=document.querySelector('.jump a[href="#'+m.id+'"]');if(link)link.hidden=match.length===0;
+const opt=jump&&jump.querySelector('option[value="'+m.id+'"]');if(opt)opt.disabled=match.length===0;
+total+=match.length;});
+none.hidden=total>0;
+count.textContent=total+(total===1?' story':' stories');}
+document.querySelectorAll('.more').forEach(btn=>btn.addEventListener('click',()=>{
+const m=btn.closest('.month');
+if(expanded.has(m.id)){expanded.delete(m.id);apply();m.scrollIntoView();}else{expanded.add(m.id);apply();}}));
+if(jump)jump.addEventListener('change',()=>{const m=document.getElementById(jump.value);if(m)m.scrollIntoView({behavior:'smooth'});jump.value='';});
+[q,src,win].forEach(e=>{e.addEventListener('input',apply);e.addEventListener('change',apply);});
+apply();})();
 """
 
 
-def shell(title, body, script=""):
+def shell(title, body, script="", css=CSS, wrap=True):
+    inner = f'<div class="wrap">{body}</div>' if wrap else body
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{html.escape(title)}</title>{FONTS}<style>{CSS}</style></head>'
-            f'<body><div class="wrap">{body}</div>'
+            f'<title>{html.escape(title)}</title>{FONTS}<style>{css}</style></head>'
+            f'<body>{inner}'
             f'{f"<script>{script}</script>" if script else ""}</body></html>')
+
+
+def month_label(ym):
+    return dt.date.fromisoformat(ym + "-01").strftime("%B %Y")
 
 
 def render_index(items, brief_date):
@@ -354,44 +453,53 @@ def render_index(items, brief_date):
     for i in items:
         srcs[i["source"]] = srcs.get(i["source"], 0) + 1
     top_src = [s for s, n in sorted(srcs.items(), key=lambda x: -x[1]) if n >= 2][:40]
-    chips = ['<button class="chip" data-cat="All" aria-pressed="true">All</button>'] + [
-        f'<button class="chip" data-cat="{e(c)}" aria-pressed="false">{e(c)}</button>'
+    chips = ['<button data-cat="All" aria-pressed="true">All</button>'] + [
+        f'<button data-cat="{e(c)}" aria-pressed="false">{e(c)}</button>'
         for c in CATEGORIES + ["Industry"]]
     opts = "".join(f'<option>{e(s)}</option>' for s in sorted(top_src))
-    brief_link = (f'<a class="brieflink" href="brief.html">Read the brief for {e(brief_date)}</a>'
-                  if brief_date else "")
-    days, current, parts = [], None, []
+    brief_link = (f'<p class="brief-row"><a class="brieflink" href="brief.html">'
+                  f'Read the brief for {e(brief_date)}</a></p>' if brief_date else "")
+
+    # Group items by month, newest first (items are already sorted that way).
+    months, groups = [], {}
     for i in items:
-        d = i["date"][:10]
-        if d != current:
-            if parts:
-                days.append(parts)
-            current, parts = d, [d]
-        ts = int(dt.datetime.fromisoformat(i["date"]).timestamp() * 1000)
+        ym = i["date"][:7]
+        if ym not in groups:
+            groups[ym] = []
+            months.append(ym)
+        when = dt.datetime.fromisoformat(i["date"])
+        ts = int(when.timestamp() * 1000)
         text = e(f'{i["title"]} {i["source"]} {i["summary"]}'.lower())
-        snip = f'<p class="snip">{e(i["summary"])}</p>' if i["summary"] else ""
-        parts.append(
+        groups[ym].append(
             f'<li class="item" style="--cc:var({CAT_VAR[i["category"]]})" data-cat="{e(i["category"])}" '
             f'data-src="{e(i["source"])}" data-ts="{ts}" data-text="{text}">'
-            f'<a class="t" href="{e(i["link"])}" target="_blank" rel="noopener">{e(i["title"])}</a>'
-            f'<div class="meta"><span class="cat">{e(i["category"])}</span>'
-            f'<span>{e(i["source"])}</span></div>{snip}</li>')
-    if parts:
-        days.append(parts)
-    groups = ""
-    for p in days:
-        label = dt.date.fromisoformat(p[0]).strftime("%A, %B %-d")
-        groups += f'<section class="day"><h2>{label}</h2><ul>{"".join(p[1:])}</ul></section>'
-    body = (f'<header><h1>Diagnostics Desk</h1><p>Daily feed for cancer diagnostics. '
-            f'Updated {updated}.</p><div class="top">{brief_link}</div></header>'
-            f'<div class="bar"><div class="row"><input id="q" type="search" placeholder="Search headlines" '
+            f'<a href="{e(i["link"])}" target="_blank" rel="noopener">'
+            f'<div class="tag">{e(i["category"])}</div>'
+            f'<div class="headline">{e(i["title"])}</div>'
+            f'<div class="meta">{e(i["source"])} · '
+            f'<time datetime="{e(i["date"])}">{when.strftime("%b %-d")}</time></div></a></li>')
+    sections = "".join(
+        f'<section class="month" id="m-{ym}"><h2>{month_label(ym)} <span></span></h2>'
+        f'<ul>{"".join(groups[ym])}</ul><button class="more" hidden></button></section>'
+        for ym in months)
+    jump_opts = '<option value="">Jump to month</option>' + "".join(
+        f'<option value="m-{ym}">{month_label(ym)}</option>' for ym in months)
+    jump_links = "".join(f'<a href="#m-{ym}">{month_label(ym)}</a>' for ym in months)
+
+    body = (f'<header><div class="brand"><h1>Diagnostics Desk</h1></div>'
+            f'<div class="subrow"><p class="updated">Updated {updated}</p>'
+            f'<select class="jump-select" aria-label="Jump to month">{jump_opts}</select></div>'
+            f'<div class="filters">{"".join(chips)}</div>'
+            f'<div class="controls"><input id="q" type="search" placeholder="Search headlines" '
             f'aria-label="Search headlines"><select id="src" aria-label="Source"><option>All</option>{opts}</select>'
             f'<select id="win" aria-label="Time window"><option value="1">Last 24 hours</option>'
             f'<option value="7" selected>Last 7 days</option><option value="30">Last 30 days</option>'
             f'<option value="0">All stored</option></select></div>'
-            f'<div class="row" style="margin-top:8px">{"".join(chips)}</div></div>'
-            f'<p id="count"></p>{groups}')
-    return shell("Diagnostics Desk", body, JS)
+            f'<p id="count"></p>{brief_link}'
+            f'<nav class="jump" aria-label="Jump to month"><p>Jump to</p>{jump_links}</nav></header>'
+            f'<main>{sections}<p class="empty" id="none" hidden>No stories match these filters.</p>'
+            f'<footer>Headlines link to the original publishers. Refreshed daily.</footer></main>')
+    return shell("Diagnostics Desk", body, INDEX_JS, INDEX_CSS, wrap=False)
 
 
 def render_brief(md_text, date, all_dates):
