@@ -1,0 +1,14 @@
+# Environment files (may hold ANTHROPIC_API_KEY)
+.env
+.env.*
+!.env.example
+
+# Local Claude Code instructions and handoff notes
+CLAUDE.md
+HANDOFF.md
+
+# Local tooling and OS/IDE files
+.venv/
+.DS_Store
+.Rhistory
+.idea/
