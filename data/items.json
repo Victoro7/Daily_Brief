@@ -9,6 +9,42 @@
   "category": "Science & Trials"
  },
  {
+  "id": "ab69dbabe312",
+  "title": "Schr\u00f6dinger signs \u20ac22M biologics collab with sequencing automation outfit Enpicom",
+  "link": "https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m",
+  "source": "Fierce Biotech",
+  "date": "2026-11-27T18:21:25.456848+00:00",
+  "summary": "Computational discovery biotech Schr\u00f6dinger has finalized a collaboration with sequencing automation company Enpicom in an all-cash deal worth \u20ac22 million.",
+  "category": "Industry",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
+  "id": "568a5c3643f2",
+  "title": "Thermo Fisher Scientific nabs FDA expanded use clearance for EXENT analyser system",
+  "link": "https://www.fiercebiotech.com/medtech/thermo-fisher-scientific-nabs-fda-expanded-use-clearance-exent-analyser-system",
+  "source": "Fierce Biotech",
+  "date": "2026-11-27T18:21:25.456848+00:00",
+  "summary": "Thermo Fisher Scientific announced FDA clearance for expanded intended use of its EXENT Analyser with the EXENT GAM Assay.",
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
+  "id": "865383a80f3e",
+  "title": "FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test",
+  "link": "https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test",
+  "source": "Fierce Biotech",
+  "date": "2026-11-27T18:21:25.456848+00:00",
+  "summary": "The FDA has given de novo marketing authorization for Siemens Healthineers\u2019 Atellica IM Neurofilament Light Chain (NfL) assay.",
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
   "id": "80a71e8edc99",
   "title": "Tissue vs Liquid Biopsy and DNA Plus RNA Testing",
   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRm1mV2FYZGZiTHF2emV0WkRacjdadHMwZUJGV2h6VnBjQ2ZvdThRNjVmNUE4RzNvVzRDaXdiOFUzakh1S3pGZEw4a1huNUpaSlNYZ3EtRF8xcVN3cXZfUnVQNTFFZjV5WUN2UVRPWGNSblBKQ1hhemRuV2dUNmJJYWxiRQ?oc=5",
@@ -199,33 +235,6 @@
   "region": "US",
   "tier": 3,
   "kind": "registry"
- },
- {
-  "id": "ab69dbabe312",
-  "title": "Schr\u00f6dinger signs \u20ac22M biologics collab with sequencing automation outfit Enpicom",
-  "link": "https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m",
-  "source": "Fierce Biotech",
-  "date": "2026-11-26T18:32:17.556080+00:00",
-  "summary": "Computational discovery biotech Schr\u00f6dinger has finalized a collaboration with sequencing automation company Enpicom in an all-cash deal worth \u20ac22 million.",
-  "category": "Industry"
- },
- {
-  "id": "568a5c3643f2",
-  "title": "Thermo Fisher Scientific nabs FDA expanded use clearance for EXENT analyser system",
-  "link": "https://www.fiercebiotech.com/medtech/thermo-fisher-scientific-nabs-fda-expanded-use-clearance-exent-analyser-system",
-  "source": "Fierce Biotech",
-  "date": "2026-11-26T18:32:17.556080+00:00",
-  "summary": "Thermo Fisher Scientific announced FDA clearance for expanded intended use of its EXENT Analyser with the EXENT GAM Assay.",
-  "category": "Regulatory"
- },
- {
-  "id": "865383a80f3e",
-  "title": "FDA signs off on Siemens Healthineers next gen multiple sclerosis blood test",
-  "link": "https://www.fiercebiotech.com/medtech/fda-signs-siemens-healthineers-next-gen-multiple-sclerosis-blood-test",
-  "source": "Fierce Biotech",
-  "date": "2026-11-26T18:32:17.556080+00:00",
-  "summary": "The FDA has given de novo marketing authorization for Siemens Healthineers\u2019 Atellica IM Neurofilament Light Chain (NfL) assay.",
-  "category": "Regulatory"
  },
  {
   "id": "abe48240c6fc",
