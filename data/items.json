@@ -9,6 +9,198 @@
   "category": "Science & Trials"
  },
  {
+  "id": "80a71e8edc99",
+  "title": "Tissue vs Liquid Biopsy and DNA Plus RNA Testing",
+  "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRm1mV2FYZGZiTHF2emV0WkRacjdadHMwZUJGV2h6VnBjQ2ZvdThRNjVmNUE4RzNvVzRDaXdiOFUzakh1S3pGZEw4a1huNUpaSlNYZ3EtRF8xcVN3cXZfUnVQNTFFZjV5WUN2UVRPWGNSblBKQ1hhemRuV2dUNmJJYWxiRQ?oc=5",
+  "source": "OncLive",
+  "date": "2026-11-27T13:41:23+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
+  "id": "46c9ad1855f8",
+  "title": "Carbonaceous materials for electrochemical pathogen detection and disease diagnosis.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43100137/",
+  "source": "The Analyst",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "b3e9d5051c1d",
+  "title": "Trial update: Co-Designing and Evaluating Additional Mothers and Babies Program Content for Expectant and New Parents of Children With Down Syndrome",
+  "link": "https://clinicaltrials.gov/study/NCT07469176",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "90b3fd297935",
+  "title": "Trial update: INTO-HLH: A Disease Registry for Patients With Hemophagocytic Lymphohistiocytosis (HLH)",
+  "link": "https://clinicaltrials.gov/study/NCT05277272",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "4e661a56ebf2",
+  "title": "Trial update: Use of Allied-health Professionals to Improve Treatment of Disease",
+  "link": "https://clinicaltrials.gov/study/NCT06337799",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "eeac8494a44a",
+  "title": "Trial update: Social Isolation and Aging in Schizophrenia",
+  "link": "https://clinicaltrials.gov/study/NCT07419321",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "92adbea96b66",
+  "title": "Trial update: Accelerating the Learning Curve of Minimally Invasive Achilles Tendon Repair: A Multimodal Educational Curriculum for Surgical Residents",
+  "link": "https://clinicaltrials.gov/study/NCT07963267",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "0e68783951aa",
+  "title": "Trial update: Collection of CSF Samples From Participants With Metastatic Triple Negative Breast Cancer (TNBC) and HER2+ Breast Cancer With no Prior History Nor Active Radiographically Detectable Brain Metastases",
+  "link": "https://clinicaltrials.gov/study/NCT07619534",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "4967d0b5b719",
+  "title": "Trial update: Fudan University Shanghai Cancer Center Breast Cancer Precision Platform Series Study- Neoadjuvant Therapy",
+  "link": "https://clinicaltrials.gov/study/NCT05582499",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "0fd36a93c52f",
+  "title": "Trial update: Robotic-Assisted Bronchoscopy-Guided Synchronous Biopsy and Radiofrequency Ablation for Pulmonary Nodules",
+  "link": "https://clinicaltrials.gov/study/NCT07545057",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "73a563b2097a",
+  "title": "Trial update: EASi-PROTKT\u2122 - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+  "link": "https://clinicaltrials.gov/study/NCT07064473",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "8adb673bf800",
+  "title": "Trial update: STeroids and Enhanced Spectrum Antibiotics for the Treatment of Patients in Africa With Refractory Sepsis",
+  "link": "https://clinicaltrials.gov/study/NCT07332325",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "15dc84c50551",
+  "title": "Trial update: PSR for TMD in Adolescents",
+  "link": "https://clinicaltrials.gov/study/NCT07961824",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "86c52f5143f8",
+  "title": "Trial update: Orthotic Impact on MTP Alignment in Hallux Valgus",
+  "link": "https://clinicaltrials.gov/study/NCT07378917",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "b19d82782805",
+  "title": "Trial update: 3M-6D Educational Intervention to Improve LLM-Assisted Medical Consultation in Neurology Outpatients",
+  "link": "https://clinicaltrials.gov/study/NCT07844044",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
+  "id": "f01eb06b2a20",
+  "title": "Trial update: Antenatal High-Risk Pregnancy Intervention Bundle in Rural Nepal",
+  "link": "https://clinicaltrials.gov/study/NCT07717619",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-27T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US",
+  "tier": 3,
+  "kind": "registry"
+ },
+ {
   "id": "ab69dbabe312",
   "title": "Schr\u00f6dinger signs \u20ac22M biologics collab with sequencing automation outfit Enpicom",
   "link": "https://www.fiercebiotech.com/biotech/schrodinger-forms-ties-sequencing-automation-outfit-enpicom-eur22m",
@@ -36,6 +228,16 @@
   "category": "Regulatory"
  },
  {
+  "id": "abe48240c6fc",
+  "title": "Development and Validation of a Diagnostic Prediction Model for Diabetic Kidney Disease in Overweight and Obese Patients With Type 2 Diabetes Mellitus",
+  "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQd0lRTjFqLTl4YmlwTERpQ3MwdnhYcHVLTVJXQlFsdnRENDRuRDhybHIwUlZ5Wi1GcHluLW0tX2VhSXp3Wm1zaFZwSnBWV3h0cWZOVnludC1jN1JacDRnUVFQSENYR3V5Yk5pZ2NzbElObHJCRHJIQlR0ZHljaklXUk5NVnFOSWJxQWhlazVrQ0xjdWYzT1E3UTEzbFNjTXZQMWdqcjlIdlBrYmRaV05ubkRTcmxIY0RTZ1FJbWZWMWxERmVHRUI1Z195RGR1NmlNbGczU0lVNXBGNkFtSU5CdDBFdWo5X2otU0V5MzAwRXNYUEs5R2RVS2JBZ280dlNnQlhqUFRFbFpjOThTTDhaYnZnRlBpbkxWYXcwUU9Dam5SWmo5eTBNMnZFY0dXTWJxOEE?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-26T17:48:48+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
   "id": "013594f194f1",
   "title": "Saliva-Based Glucose Monitoring Pioneer Dongwoon Anatech Receives Korea's Digital Medical Device GMP Certification",
   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSW45VGFZbWV6Y2RaQzZYQzdsaXVfVU8xaDhnUXlwcU5GNDZrQUI0dC1lbDBJOUlTTURlU3gtWnM0cFJabmNybU9BbkxOazRxUXhMRDNoZE1xUTdkOTlWX09aSTNncUpKZVNQdldaU2swSFp0bjA0ejd6T3RxQXpDYzY5UEliazd1WVMycE53TXM5V3ZmSUxJcUpmb3Rwc1FHZmlRQ2NyYVVrMVVWQ0RYcmIwOHlGQUpMSWVjSUVpZEY4MGtBU2tZZ1o1aU5ZNk1rTGU1VVpjVVdBQllWSkwxV014Y0NQQldXUFEwSE5JdndVRkU?oc=5",
@@ -45,6 +247,26 @@
   "category": "Industry"
  },
  {
+  "id": "c3f96921bf68",
+  "title": "ACCESS2 study: the potential for autonomous AI to mitigate disparities in diabetic retinopathy screening in youth",
+  "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPU3RmNkxQb1JTWjI0T0U5V1ZVZFlmTnJvSkRmWnRpRURzd2tLOVhrS2hCMHQ1d1hNdVMzeEVza3BFUkpndUlzRmV2V1MtMjBaZE5TNDg5NzZIWGtIXzc1UnBNcXNXLWZyd2lpeE9NRDNIUF9rMGZGUEdsWEVxamhYVnp1eEYtX3BrcXBpOWQydlhDcU5SN2lULXdGUzBHMl9rQmtjb2FXWU53amNsbmMwVjMtVlFJSUkyeDczXzFaTHZYTk9DTEFRT2IxQXBkREtCd2c0MmxNcVI3dXhvVFpuU2piTElIYWxJdTE2b05wVlkxX2JudmlTVTRrdHBoQXBzMjNNeVlreGNZTzFMSVBJNFBsNlV2T3NjX3BiZHBFUFBRZnU5YnoxM3l3?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-26T15:03:29+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
+  "id": "0128bced07ad",
+  "title": "Diagnostic accuracy of point-of-care ultrasound for proximal lower-extremity deep vein thrombosis in emergency settings: A systematic review and meta-analysis",
+  "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOMXJYN2pwUWRJcWpkNWJacVpGb1drcVpsTVhVd0pBQzJwellLUU1HczRwU3VJSURlRkhma1dJMTA1N1NWM3FtdkE2Y3VVbUYzWjF6NXZra0J5Nlh1ay1iWFpfOEpNV0U0TDBOaWdHdFBMclphMnU5MGlnRUFHQ1JHRTFNNU5RZWdZN0dXT1doczZVSHJfemZfYUNWemZCZHBIY1B4Yk5OY0g2YXRnVWVJRkJNUnpMeGlzVFR2SEpJZGtVYmp2VzRsZVQ0bjNpdlVZTC1mVlhpMWhlSnlvXy1lRHpoMF9pblpKeGNwXzJOZFFLWndrN1dxNWtET3NKYVBQZFVMWDRONm5ZTmlLeWVTTVV2TUhyV1liMEJVX2U2RGZ5WXFzWDNpZDhR?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-26T15:01:41+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
   "id": "c8854c5e9baf",
   "title": "Breast Cancer Screening Reaches Under One Percent of Eligible Indian Women",
   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPajVld0Z4SkVpd0JjRXlnQnRBMnQ1ZkpnY2VIY1FFVXo5cXdiMWdDNWxzOUVBOUtmcWl4S3puYi1lWHdQU1QzOWZaWlZNbU9uNGF4VGU1Q2NHU1cxTnA1NTdsWFJpd2l5ck42TFpkeXlBMV9WUDQxU1hJRUNkRXBCX3NSdVAtcktxMUJuV2VMdWdoSUE0Zld2LUtoVzY4Ynd1?oc=5",
@@ -52,6 +274,26 @@
   "date": "2026-11-26T13:55:29+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "d8b0ce7c83b7",
+  "title": "Integrated bioinformatics and in vitro analyses identify BHLHE40 as a candidate regulator associated with senescence-like growth arrest in multiple myeloma",
+  "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPaWVrbi02SUY1NlN0NTRkNDRLWUdYTUdZWG9wZHloczVvRXI1WWFoeGtSRlBpZUJkcUVNMHBCMzRyLWlHNVRlSWY5UUF6clR2SmVlbUQySGk3YjkzQktHRUJMMHNoclBZdkdiX0VmejlrNWhpVnRhcVV1ZGNkQ0VidUZTOWszSXpYWkYySXhGUUJsOEpmb1kyTmlxRVo4VGgyQzJTRjRRSTl1enA2Z19FQ1VwazdaaWwtM013X2tERTdieFFwZjdQWDUxUFVJd052dFJEWUxNVy1CMHRwNUc0c1Y1Vjhqc1BFZmRBWnhmT2FDWEIyd28zclk4U2xvQmhwR2kyeFNJTzk4Z3FfSlgxOFpYSk1Nc2dXV3hyallqbkVsQlgxYmFoRnl4SFIwMFVaNVBr?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-26T13:46:11+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "c64ec6e55fe3",
+  "title": "Blood proteome profiling of mild cognitive impairment identifies novel biomarkers for multi-pathway Alzheimer's assessment and cognitive decline prediction",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qNExUSkh4VmF6NHo2dnYzcTNCaFRMLU0xenBINmx3ak1aeDhNVkVQRGlIbXZJWkxCTzZKTDJ5czVoQ2EzaXBuMlpzZ054RW5GSTNN?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-26T13:09:19+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
  },
  {
   "id": "41bd8f01cb64",
@@ -78,7 +320,22 @@
   "source": "STAT",
   "date": "2026-11-26T12:00:00+00:00",
   "summary": "Boston is supposed to be the medical capital of America. Yet many don\u2019t have primary care access, hurting their ability to get treatments, screenings, and medical advice.",
-  "category": "Industry"
+  "category": "Industry",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
+  "id": "820e596cfa82",
+  "title": "Shahrokh Shariat has been appointed to the European expert panel on prostate cancer screening",
+  "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNVURQZWdvajVMMUlCbnlteWlSQXB5ZDhWeEJST2tEU2NGYnV6bl9kUXpwNXBldlFPMWJOUHRCOFEtYzZWRm5yTWtzUFZMekxDOTFkM3JoTFppR1FLYVE4WW44blJ2REpPZ1RJdWJBYmYxcXNXbk5wRFd6UXFDM2xTQWdiSG5rTXVDeGhhUE5JcTZjaDhiZnZLYjZMbWNEcmhIdHJBOGRQV1R1Rjllc05KVDhYWjh2c1Y1NEg1NjBWMkJpY3ZTdkx4RkdUSHFTRzNCeHFPQmx5WWtJeHg4b3pnSEFjYjdLdUdvbF9ra2tPNkNocDA2ZTlqRGxnTFJCeXJB?oc=5",
+  "source": "MedUni Wien",
+  "date": "2026-11-26T10:18:12+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "Europe",
+  "tier": 1,
+  "kind": "news"
  },
  {
   "id": "3288edf7ddea",
@@ -126,6 +383,16 @@
   "category": "Regulatory"
  },
  {
+  "id": "281070910613",
+  "title": "Clinicopathologic features of oral amyloidosis: a multicenter Latin American Study of 33 cases",
+  "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPdWtLeHFDX3hHb1VxaEVYcTR6WjZfNS1fbS1DcW5rYzM3VkFRRWhxWkVrOWZmSmFqX2s4dGxrbDh6UGpTdHVtOVNLa2xUODVrOXV1TFVneG9tTFV4aXU2R1dFNkhrSTFOa2J1ZGxwNVR4TTZTcDlId1JBQi1uOFNQTjdTMzdHeHVwZXRSaFVtTjRrMVd2M3NnaFZScUVDYTBUUElZWmRmOWNLQVZnU3FaeVpyekd3bnNlYThYRXJNTGoySFliSEdYcHRhU3NuLWVUWm9OZ21UTUxrSktSSlJpWDQ1MFNjM0VkdUlvX1Y3TVRNYWJPRWo2QWhheEN0TzJRd3lHd1NSQndhZ0JIdXc4dDE1ZmJla2VTNERmM19EVEhWRVc0eTVKS3p0eVJnbjVmcTM4?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-26T05:56:33+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
   "id": "6dee0b9159aa",
   "title": "Breast Cancer Screening Age Limits May Constrain Mortality Reductions in Southeast Asia",
   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMW94a3cxSmgtOUc2VHQ1Ql9JWGpnQi03SUtCdElDVm44R25CTENFQnlEckVJVEo1UnNleFAxQ0NmTWk3VklmTXVRaGVWenFqckU4N090VlNwbnp0bjJOb1E0aVJFNVNRQ2RMQWc0a0tnbTB0bC1VOUhvRHUzYzJZMlZtT2pmYWI5a2FIR0EtZ2h0S2NrYXlqd3JkVUNCWEZTTmhJOVpnSWNnbFVsdmRTN3pn?oc=5",
@@ -153,13 +420,94 @@
   "category": "Science & Trials"
  },
  {
+  "id": "e90e68d2c44f",
+  "title": "Polymersome-based nanomedicine: innovative progress on permeability control, morphology transformation, and active motility.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43096070/",
+  "source": "Journal of materials chemistry. B",
+  "date": "2026-11-26T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "38d0222f2844",
+  "title": "Blood urea nitrogen and 30-day mortality in Sepsis with malignancy: A retrospective cohort study with point-of-care translational validation.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43098497/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-26T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "ae1d1b2cfa79",
+  "title": "Dual-platform interleukin profiling reveals a diagnostic cytokine signature and high-risk haplotype in Iraqi bladder cancer.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43098496/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-26T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "a25e18598c08",
+  "title": "Envudeucitinib in moderate-to-severe plaque psoriasis (ONWARD1 and ONWARD2): results from two replicate, multicentre, double-blinded, placebo-controlled and active comparator-controlled, phase 3 randomised controlled trials.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43098154/",
+  "source": "Lancet (London, England)",
+  "date": "2026-11-26T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "6ffbf83965f9",
+  "title": "Tumor-Agnostic Profiling of Peritoneal Fluid Tumor DNA as a Robust Prognostic Biomarker in Peritoneal Carcinomatosis",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSW4wRm1rZ0JBb0JvQzI5YlhyMmJNNVBnVmNMemM5SDRtZFhFUzBJZlZsQ1FvUzdQZEZRdVBacnAzcmduRG4tS1Y4bEVVTTN2Ui1R?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T23:08:51+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
+  "id": "312a35f764e2",
+  "title": "Utility of Point-of-Care EEG in Tertiary Hospitals With Existing Conventional EEG Infrastructure: A Case Series From the SAFER-EEG Trial",
+  "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNVlJ6VWVZWHZQNlBIM01kdU9jckNEeGpmZjVpUnZFLUZXSExSYUc1bUVVWHdodUN6UmxYa0FWU1N1YVRiUGZsTTF4RjVNRG43TGs3NlEwUUZ0SnpVWURRa2ZJRDIyZ2JFcEpUTXBjeWczSGtGSDVyM3dYdDFneG1nai0tWDc4cklyb3RxdWJYNjhvWWFDUno2REVZem12RUhSaE9uN2lNcU9KaC1CYkg4NldHX3hLQW5Xb3BiLXN5aE1pTWFTZkhlaGR5ZTM5ZnNMV01ubjlMQXA5dFV5ZG9MTUVUWkE0S2xlSHZkcXVaZUJkNi01V1g2c1M2SXZoa1JoNWthdU5IRXBac20xUldkd3ZMZ0pET3hnOHVhYk1UcTdoLXFKUVdsc3ZjeW1FWkd1SnNMa3lPUEZybFlxTTRzaU41RQ?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T23:07:54+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
+  "id": "803cf90ac239",
+  "title": "A programmable cell-free biosensor device for on-demand detection of pathogens and antibiotics",
+  "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNZTZRd1lLVk9Zay1jOWtrRV9hVzliamVfaDhrZjhwN1d6Rlg0UVJuenBOQVJmZTlweUhpNlNsY05WblJoMW9qVi1Tc0RLalY4dlM0QXYzTXl3TGJONlAxYlZsWUhGSi1xLTZpV2JjeFI0QXVFbXIyRjY1ZnNxMEU0SkJHWDV1cjJjNnVzbzNYRHFOU04tQkxTVXFxWmpYV0lTbjlaSW5jODVRM1dtSTNSZnE0Q2lTRkk4YVdUd0o4Zy1nT0JNck90bGRzanlLLWwtcXgxZnNYaHZXUkY0V3dIXzhWS2gxUEJ5ZmlvN2ExcE1CMmRHakhFUWJ0cE5UMlY4cVA1NWFmVnhiYlhOR1p6aGo0TGVWcF9ZSzZZQWtSUEt4SlhiZVlCc0V5T0xyWHV2ak1zZkZjMkxiQk1sS0F1RWIyOA?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T23:07:54+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
   "id": "89e066778da9",
   "title": "Visage Imaging secures FDA clearance for mammography AI",
   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcjhhWnpwT2RIdlhMQWd2YTRjWkZwamUyMVAxMmhiT1QxdmlLUmFKMHdUUUpFYjY5ei1Wd1VrRk5sZzFsejBEX3BxejNBcGFXOUd3TW1PS1BYUnlIZ1Y1bDlsZFlKZGFBcG9VU0xGYVZvR3NkRmlpSmszcFlnSXFJZF9ndXIxM1haOHNNRzRiemxYZm5xa3U4WDg4NFBYTE01aWw2Nm1VSDhEdmd3ZWxpYVRIUHlYRE9KZHFYZTZsOF9wb1pSVnhuVW55aG5GWWhvZTFiMC11bE1WU3o3Z29QQQ?oc=5",
   "source": "AuntMinnie",
   "date": "2026-11-25T21:49:58+00:00",
   "summary": "",
-  "category": "Regulatory"
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "4a373e2eb083",
@@ -195,7 +543,10 @@
   "source": "AuntMinnie",
   "date": "2026-11-25T19:49:58+00:00",
   "summary": "",
-  "category": "Regulatory"
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "2467b1c7b49d",
@@ -294,7 +645,10 @@
   "source": "Imaging Technology News",
   "date": "2026-11-25T16:42:49+00:00",
   "summary": "",
-  "category": "Regulatory"
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "d85500fe083b",
@@ -304,6 +658,30 @@
   "date": "2026-11-25T16:05:49+00:00",
   "summary": "",
   "category": "Regulatory"
+ },
+ {
+  "id": "be6d1bb315ea",
+  "title": "2 in 5 Canadians Will Face Cancer. Here\u2019s How Screening Helps",
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdG53VUxWNnYtcnN0MlNpbktlcmdHd1Q2akNQYk04NVh1NXA5dXktd1Y5Z21qVkhaQkcwUElMOWZhWTIyRVVUczRSRGJYNHlxQ0NxZlhUZXRNVDFhQ0dXYkxrQTFWVnJiN0d0MmFPNzlzUmRjNVJjS25EdzJjNWhiTzE1QUs3cDM5?oc=5",
+  "source": "U Multicultural",
+  "date": "2026-11-25T15:21:49+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "Canada",
+  "tier": 1,
+  "kind": "news"
+ },
+ {
+  "id": "d54569d87ab5",
+  "title": "FDA Authorizes First Point-of-Care Test for Active Syphilis",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZEVSX1FiRTM1RXJ3MVFjWFlqVWkxNHE4REs3NnRZdG5xdHZ0ak5PanRZM2xjQTdaVi1jM0ljbVpyZktqUjUxNWxDRnUyV0QwLWhzTDBWWWZrbk9PYmpMb21WTVVMTG9hbG9Xb1huOTJVRU8zUGJmcUNzV1F3Xy1EbUlDXzI5V2lPeGI0UHBJQWJCVEI0TXkwYkN4SmpITnBWeVJzQU9JOA?oc=5",
+  "source": "Clinical Lab Products",
+  "date": "2026-11-25T15:15:04+00:00",
+  "summary": "",
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "b58b0daf7acc",
@@ -330,7 +708,10 @@
   "source": "Diagnostic Imaging",
   "date": "2026-11-25T13:53:46+00:00",
   "summary": "",
-  "category": "Regulatory"
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "f49a037bc070",
@@ -357,7 +738,10 @@
   "source": "Nature",
   "date": "2026-11-25T12:58:04+00:00",
   "summary": "",
-  "category": "Industry"
+  "category": "Industry",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "news"
  },
  {
   "id": "014f8cce3d16",
@@ -375,7 +759,32 @@
   "source": "Clinical Lab Products",
   "date": "2026-11-25T12:40:35+00:00",
   "summary": "",
-  "category": "Industry"
+  "category": "Industry",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
+  "id": "b479653f48c0",
+  "title": "Elbow Pain in Adults: Evaluation and Differential Diagnosis",
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xblU5WDhpakRMeEpJT3BfSVQtOE44RkVva19aMGZSZVpSY2s2cWY3NEUzeGJSSTA4RTIyS0E1VU1PbFBISjh4S0dnWlJzdUlvdHc?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T12:19:32+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "63bd04bd2066",
+  "title": "NEWSLETTER: Breast density changes with GLP-1 weight loss may prompt mammogram call-backs",
+  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWGxlZzNsOHBSM2ZDN2FKNHdCN2RoTnUtTWdUeVZXYXlhX3dINkYtR0hTRHo2NTJBSDUwWWV6eTc1cEpLRGpUbFYwN3F4SFhHVmZIeVE1WmhLUmY5dHVvd0xodkpZd05sUy03eWg0UjFZOWZRZHZIYWxjNFJaaEFzaFVxLUdtRUpLS3dDUkI4V18zZjFwVTZSVF93bGRvaXhkeFlYdG9pLWt3ZjVWRHJMWExHQ3NOYUhBNmQ5alFLLWstQVFsOWVOSlZ3c25BX0x1RTl3bWJfdk10dXZkYmRmQjhmUQ?oc=5",
+  "source": "Reuters",
+  "date": "2026-11-25T12:09:43+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "news"
  },
  {
   "id": "892086f192b4",
@@ -394,6 +803,28 @@
   "date": "2026-11-25T11:49:38+00:00",
   "summary": "",
   "category": "Regulatory"
+ },
+ {
+  "id": "a85704c960cc",
+  "title": "In-Vitro Diagnostics Market to Reach USD 135.65 Billion by 2034, Growing at 6.50% CAGR, Fueled by Advancements in Molecular Diagnostics: Fortune Business Insights",
+  "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNZjZzNkx2VG9rNGg4YUJ4dGJaMk1SUVVQOHFPNkJGbXlPOF9ETG5fSTBsQU9GaXB6RkNRWWVncy11Q3NScEdTZms4TUtSb0FhOXpqX1VrdDJuVndUZjY0bmw1dVpKQS0tVUhRV3kybUZUMng1TGRPWDM5d3RaUHVhb29pRnZzMXA5Z01td3VZWWYwa2JGS1RQOHZDcEJjNHhDYjl0RmJ0V004R3dsSUpVUml4ZEl5R3I3dWRDUTViMHVueDY0Q2RyblNySUNGcjdqV0RoUE5NMkZfcF9CTi0tSkpndWlKVVk4TGpQbk1kUTJIRUt1d2lTRXRkcXZQOW1XZkplSklSYmRpdXlMYnFYMXhPbFlUSkY4S3pyNi1EcHBhVlRFMmVGcHZQanBERWhvSTdWS29ZdGZwYW1iUmc?oc=5",
+  "source": "PR Newswire UK",
+  "date": "2026-11-25T11:00:00+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "Europe",
+  "tier": 1,
+  "kind": "news"
+ },
+ {
+  "id": "5e05630b395e",
+  "title": "Diagnostic Precision in Arthrogenic Muscle Inhibition",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BQXZRWmxfQnhidWlwUGxkc1F2SkVQQ3g4RW8xOEJoV2I5Ulg0em8yUGpIVWlwT0JXQVJKTGFlOGdXekRoLVNHSS1mR2ktZ3laRFg0?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T10:47:26+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
  },
  {
   "id": "45bee88e45e7",
@@ -420,7 +851,30 @@
   "source": "Radiology Business",
   "date": "2026-11-25T08:43:26+00:00",
   "summary": "",
-  "category": "Regulatory"
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
+ },
+ {
+  "id": "dfab50e21973",
+  "title": "Rethinking Covariate Adjustment in Psychiatric Biomarker Research",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBidUxvU21fZkQyM21QbFpDYlNOMTVaYUs3blI3TDZ3TlRTOHFIZmhramJRS2JVczlvUktudU1KZ1ZNaGxwV3NXTGRTTzY2Qk1hdGlB?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T08:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
+  "id": "f3ec675e1d5c",
+  "title": "Feasibility of dynamic blood lactate estimation using sweat biomarkers during exercise under normoxic and hypoxic conditions: a randomized-order crossover study",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YU2pubjV0WWdqNzc0d1BBUGoyOG92YUhvMjFhLS1sU2wyaDNuMC1vaGNENU40LXFvZC1lWEJ4elhHcTJIbEZSbzZBZ0ZISHFxdUlz?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T08:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
  },
  {
   "id": "cc458ce59161",
@@ -493,6 +947,16 @@
   "date": "2026-11-25T01:51:02+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "6630d70703b0",
+  "title": "Behavioural presentation of children with Down syndrome and rigorous diagnosis of co-occurring Attention Deficit Hyperactivity Disorder",
+  "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1IcVJZMnlaVjBsbFRmVi1TZjlqdmhydHZDQ0U1ZlVqUjZsWFVjTTNLVVh3QkpwYlVDeE1kYktDWkpZcUtFd25raUJRWlp0M2NXOEdLdGVTWXBfa0Z6T2c?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-25T01:23:57+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
  },
  {
   "id": "2174750d2804",
@@ -639,6 +1103,252 @@
   "category": "Science & Trials"
  },
  {
+  "id": "01ca097b993b",
+  "title": "Integrated machine learning with routine cytological indicators for diagnosis of malignant effusions: A large-scale retrospective study.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43085446/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "690a753d9802",
+  "title": "Myocardial injury with non-obstructive coronary arteries: diagnostic pathways and stratified treatment.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43085372/",
+  "source": "Lancet (London, England)",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "ffeea06324a1",
+  "title": "Neoadjuvant pucotenlimab plus chemotherapy in pediatric intermediate-to-high-risk rhabdomyosarcoma: A phase 1/2 interim trial analysis.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43085344/",
+  "source": "Cell reports. Medicine",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "d813c88ba966",
+  "title": "Spatial organisation of EEG-derived functional brain networks across physiological, sedated, and disordered states of consciousness: a cross-sectional study.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43084986/",
+  "source": "EBioMedicine",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "84701eb19b33",
+  "title": "Detection of single nucleotide polymorphism-based macrolide resistance via multiplex mediator displacement loop-mediated isothermal amplification in Treponema pallidum.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43082006/",
+  "source": "The Analyst",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "0014678b66d3",
+  "title": "Smart dual sensors enable Cu(2+) and Fe(3+) ions detection in water at low levels.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43081665/",
+  "source": "Journal of materials chemistry. B",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "5c48d8543b45",
+  "title": "Biomimetic magnetic nanocarriers for theranostic CRISPR/Cas9 delivery: targeting WT1 in a murine model of breast cancer.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43080227/",
+  "source": "Journal of materials chemistry. B",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "dd01f30ae4a3",
+  "title": "Bioorthogonal catalytic materials for precise chemical control in living systems.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43080162/",
+  "source": "Chemical Society reviews",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "49880f02d3a4",
+  "title": "Trial update: Mediators in Nasal Hyperreactivity in Allergic Rhinitis and Chronic Rhinosinusitis",
+  "link": "https://clinicaltrials.gov/study/NCT04286542",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "f925244ddd0c",
+  "title": "Trial update: Testing the Effect of Teclistamab on Recurrent Plasmablastic Lymphoma",
+  "link": "https://clinicaltrials.gov/study/NCT07332507",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "929255e7ea75",
+  "title": "Trial update: Cobimetinib in Newly Diagnosed or HMA-treated CMML Patients With RAS Pathway Mutations",
+  "link": "https://clinicaltrials.gov/study/NCT04409639",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "27abeb9769d3",
+  "title": "Trial update: A Study to Understand How the Study Medicine Dazukibart (PF-06823859) Works in People With Active Idiopathic Inflammatory Myopathies [Dermatomyositis (DM) and Polymyositis (PM)]",
+  "link": "https://clinicaltrials.gov/study/NCT05895786",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "588587037725",
+  "title": "Trial update: Development of Virtual Reality-based Interventions to Strengthen Cognitive Skillsets Related to Attention Deficit Hyperactivity Disorder (ADHD): A Pilot Phase I and Randomized Controlled Phase II Trial",
+  "link": "https://clinicaltrials.gov/study/NCT05608434",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "1c5a9e3b6926",
+  "title": "Trial update: The Effect of Home-Based Calf Muscle Exercises on Lower Extremity Functionality and Muscle Architecture in Lipedema",
+  "link": "https://clinicaltrials.gov/study/NCT07959497",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "c2a5beed54b4",
+  "title": "Trial update: Study to Learn More About Safety of Aflibercept Injection in Japanese Patients With Neovascular Glaucoma (NVG)",
+  "link": "https://clinicaltrials.gov/study/NCT04519619",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "e93fd3e8d842",
+  "title": "Trial update: Complementary Behavioral Interventions To Remediate Cognitive Impairment or Emotional Distress in Cancer Survivors",
+  "link": "https://clinicaltrials.gov/study/NCT06989463",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "2ac221434621",
+  "title": "Trial update: A Study to Test the Addition of the Drug Cabozantinib to Chemotherapy in Patients With Newly Diagnosed Osteosarcoma",
+  "link": "https://clinicaltrials.gov/study/NCT05691478",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "4f0d449363d5",
+  "title": "Trial update: Testing Interventions to Mitigate the Health Impact of Heatwaves on Primary School Children in Climate-vulnerable Districts of Bangladesh.",
+  "link": "https://clinicaltrials.gov/study/NCT07877935",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "32ac74b1919a",
+  "title": "Trial update: Trial of Ovarian Vein and Pelvic Vein Embolization in Women With Chronic Pelvic Pain and Pelvic Varices",
+  "link": "https://clinicaltrials.gov/study/NCT06168058",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "9ec31e322ad9",
+  "title": "Trial update: Improving Mental Health in School-age Children Through the Kids' Empowerment Program (KEP)",
+  "link": "https://clinicaltrials.gov/study/NCT06354907",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "150a766db60b",
+  "title": "Trial update: Distinguishing Tics and Functional Tics Using Clinical Neurophysiological Techniques",
+  "link": "https://clinicaltrials.gov/study/NCT07137442",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "107d9be72ca9",
+  "title": "Trial update: Longitudinal Natural History Protocol for PRKN- and PINK1-Linked PD",
+  "link": "https://clinicaltrials.gov/study/NCT07613112",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "81d94582d5b8",
+  "title": "Trial update: Testing the Effectiveness of a Combination Targeted Therapy (ViPOR) for Patients With Relapsed and/or Refractory Aggressive B-cell Lymphoma",
+  "link": "https://clinicaltrials.gov/study/NCT06649812",
+  "source": "ClinicalTrials.gov",
+  "date": "2026-11-25T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
   "id": "6a495439b56a",
   "title": "3-Fold Higher Recurrence Risk Linked to Ultra-Low ctDNA Detection in NSCLC \u2013 Personalis",
   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10NzlObHQ4SWlxa0NKYmozQ0FCdEVlbDBtVTVqZzEyYlBxNWFhTThHRnpzTGwzSU8xZURyQkhrbjNLME1UckNKUzAycnQ0RjhjM2F2ZzFRT3RSdms?oc=5",
@@ -655,6 +1365,18 @@
   "date": "2026-11-24T23:44:57+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "03dc894a591e",
+  "title": "NHS Launches World's Largest AI Breast Cancer Screening Trial",
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZlZQaXV6cENEbmNpM01GSEJvc2NGcGV0Vlo4MlBubE93Ym9GX084eXYza0h3OGxPYzgtU0VJRDF5MFcteFZSdnhtRjZ1cW9ORFlWSEUyQm9xNmY2X0xRbnFZcXQ2UHZIVEN1Z1l6T25KNGIyOXVhV21NWUlZTFdGM3RLcEFTR1Q3QUEyMERjY2NpdG9hRFZMNDZIcGhtSE8tcnlZRmZxR1NoUEVq?oc=5",
+  "source": "BBC",
+  "date": "2026-11-24T23:41:55+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 1,
+  "kind": "news"
  },
  {
   "id": "84a8609cb503",
@@ -684,6 +1406,26 @@
   "category": "Regulatory"
  },
  {
+  "id": "eb27c0333d25",
+  "title": "Multi-panel biomarkers for diagnosis of heart failure across the ejection fraction spectrum: A population-based study",
+  "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOeVlyLVhQVTd5ZzlpdXZIRzZHOE9VNnMtR01NTm9zWXlLTWNqODhFUjlLZFZlT0piY3hKaDRYcnJ6aFNZS1pQaUdFUWpVYTZ5VU14UG9iUHgzS3hyVVFjaWZjcFM5MFFyRk9xUGsxcDhmOFg2THZLY0tWeHNZLXJ0NVQ0MExER0ZBbV9HWEQyU2U0LU82YmxkdExXUlR4NGQwTk5pbEpZU1NEU1luRkNWTGcwOGdzeHZicy1mWWZTTnRIaGhlUUZHcXdBV2hIUm9HQm0wQVJqdGhoblNHX0ZfWGttcDhHc1YzU095MGNvQnBTYy03OFBGZk1UR3VjZ0tEdlhmRi13aHRMUXdiczFYRVhuX0ZJc1hoOVMzYndJUkMwcVpKSzZaaWNR?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T23:00:15+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
+  "id": "2cf15d843a02",
+  "title": "Extreme or Pathological Demand Avoidance Characteristics in a Clinical Sample of Children",
+  "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNb0ktRmNvNi1haXdEbXZVNWpHYUNodUNKcWl6NDZ5YVJfbEZJM0pFWVJPVzU5Rm1ybmM2c1dXQldzWm1NdTFHOC00Nl9FbWJaenRsNDNJZjR0TGFid28xZ1Q0WW1TNW94dEFNYXdUNnNuaHFVZjVYVlpTTW5GaWtmZG15cW84c3pMSzlUdWs2Z2dYWTVNam0xU1hpVGdDbVlKeDB4cmliWnpGeFZQald6aVZoNlZkeVpUZzg4RjE1SjVEOGpIRldFdFNpeGVSNUpXNmJoNDJSRzBBTDhucC1NTS0tbU9jaE00bTNaam5KTjhySXBITGhoTXFPZ3JkY1RKMUJHYVdiZUdSeVNvbklLdjdEMk96TlJlY0VEZlEtMlR6YV91LWRqcXhmMllRcGJ5d2M0?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T22:12:33+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
   "id": "b18f3d2b043b",
   "title": "Heart Cell Extracellular Vesicles in Blood Carry RNA Cardiovascular Disease Signals",
   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnh6UlpsSjdTejZrY0lFZEZqMUd2OGZVc1IzRG9FaVl6bGVsU0xLWExuekZZNGc4VUxEV3MyLUh1eDdROGF3bGVTc0xqM29jbVRQY1RkaHZDTXRUVWxlcXZfYmNpMGRYeVo0bWwyOE9rZ1ZaVXM4WEIyVnJlNVhNRFFZeURFVTFpRV9IVV9yX3VhNXhBVkhGSU1yaTVUOU1pSlpzNEhFdGFkTzJOYTRuUWY3YUlvdnlRUGU0MHFKWDRfQQ?oc=5",
@@ -691,6 +1433,18 @@
   "date": "2026-11-24T22:02:00+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "40f786958b07",
+  "title": "Trio or singleton WES: Could your testing strategy delay the diagnosis?",
+  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXM3QkdmSHFhUzJvOHpueWxYczRZVC1fZnNwRlZPX0ZLVHF0S0RTZ2Jabmk0NHlDXzk0TWVuRUFLRnNVWk9DMFFNSzQxa3k1c0FTMzdncGx5ZVZpU2Q1WHB0Ym15aVBVdmJOeloyR1MyU29wVzR5emFfN3pRZWFDSDZuNFBIR0o0N05BMGFaTldYQ1hBSS1KU0lITHBvbERlWHR3ejQ2eC1ZWk5pbWI0Q1VUQmVGaDhwVXVxT3B1VXM?oc=5",
+  "source": "MDLinx",
+  "date": "2026-11-24T21:40:47+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "313e000d49df",
@@ -729,15 +1483,6 @@
   "category": "Regulatory"
  },
  {
-  "id": "8f17d5ad1a5f",
-  "title": "DeepHealth Receives FDA Clearance for First AI to Predict Five-Year Breast Cancer Risk from 3D Mammograms",
-  "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNbDdzajBOT2dRLXhXM0xLU2trbVpRQ3Y1dEwyMlB0LVR4RFMwVWJoSUpWYkJnZnNVV21YWU9lbEZxckx5Yk1jWmgxa3U0UXJMRlZLNEdkVGJlSVE0M2ZOc1RlbG9hdHlscnBRODlOYThMT1h3UUF2YkFrSi03RjlQRjJXWnZTY1p2ZkpHN1NCSHczdzBlM2JOY3hyVWtDWUVTVnVab2k0SmN6U0NYUkhpSl9XZXY1OEFlYUtyMUpGVVVGVm1PaGtJSWw4QWFidE9ka3FvakZ3ZnpBQ0dJTzBzY0huVU9nckhpT3NNWi1WOVF5UGladEJhb084NXVpZkVLT3lCeDZzMnltd2dKMDM5ddIBkAJBVV95cUxNbDdzajBOT2dRLXhXM0xLU2trbVpRQ3Y1dEwyMlB0LVR4RFMwVWJoSUpWYkJnZnNVV21YWU9lbEZxckx5Yk1jWmgxa3U0UXJMRlZLNEdkVGJlSVE0M2ZOc1RlbG9hdHlscnBRODlOYThMT1h3UUF2YkFrSi03RjlQRjJXWnZTY1p2ZkpHN1NCSHczdzBlM2JOY3hyVWtDWUVTVnVab2k0SmN6U0NYUkhpSl9XZXY1OEFlYUtyMUpGVVVGVm1PaGtJSWw4QWFidE9ka3FvakZ3ZnpBQ0dJTzBzY0huVU9nckhpT3NNWi1WOVF5UGladEJhb084NXVpZkVLT3lCeDZzMnltd2dKMDM5dQ?oc=5",
-  "source": "The Manila Times",
-  "date": "2026-11-24T21:13:40+00:00",
-  "summary": "",
-  "category": "Regulatory"
- },
- {
   "id": "81024a44ffff",
   "title": "Jordan Establishes Diagnostic Reference Levels for Three-Dimensional Breast Tomosynthesis Systems",
   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWp4MGhRRTBUTWI2WjZIV0Nmd0FKOEtfOGNiN2FTVjVWU3hweDJXZ3hNc2dHQ3pmcV8xS3I3YklFX1hXRkZoeGZxV3g0RTdtMGQ4d0U1cnB1UHl3MkdQOHBOMTM1Qkk1RGxZb3BTaUNwMF9iRTNLTDBnamN6ekdmaGhkSFIzODlrZl8yR1JzMWRCMzZtck9SbENHSWFINHdTejM2UVNsMkJ0WUJCVklsVGwyX1UxZGI2Y0hkTUx2QQ?oc=5",
@@ -745,6 +1490,38 @@
   "date": "2026-11-24T21:13:32+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "7022e5b18914",
+  "title": "Minimal Change Disease With Mesangial IgA Deposition: A Clinicopathological Case Series From a Tunisian Referral Center",
+  "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNU1JROFpfT0lpeUQxVFV0T0RrU2gtaElNdVhmdWpMa3k0Y3MtSUxNeXVZUE1PLVVfTWFDei1pUXRWaWhsd1JtamVyMGhwWkJvNmZhRTh3aDB3MVd1MWRmNnRZRFlPNTdJdF9wUmhaTkdqam03SVpubnFkdDVmd3lnUXQ3clVrV0hJLUh0Z1BlZjA5Y1R1SHk4VFRwSDl3dUlYOGtIS1hrLWpTMVU2VGFBOW91WkZwcnJyRnhuY0RzSlVNMDBNbTJEX1gzeWNQYlEzN1ZWWUZtcTNubXMxRC1uMWpQRzUtcXhDN1lwNlFTd3ZqYTF3T3plLUhSLVd3dHI5NUxDN01JT1ZTWWdtZlVzM2dWd2p0WkswZFByajZUQnBhdkw3Qll0amFVcnphdHJLMmpj?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T21:06:31+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "8f17d5ad1a5f",
+  "title": "DeepHealth Receives FDA Clearance for First AI to Predict Five-Year Breast Cancer Risk from 3D Mammograms",
+  "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdmxMQ3FUMUZfSTd3UGxHblZiQTU1VmpiNW1QMnhrZ3dIUm43QUhiNGlBV0MtOFJyeGpYTmdpT2otY0F1VF9nbUZGdXNiVE1iMWRabERRbTlnX2VpUTJCbURPdG1qQ1hLdi1GV3JyZm9hMFVGbnRIeENROGhranloa0JmdjVMTGdkTXJaTDZRRERHdnVSVXctektkS1Y2WXEzd25ZQjRBSkZJM2RhRWM5MDNNaXdkWm1tbkNUQVB2Y1ZlTGlYRVRZZ1gzeTNZWmdqdG1CS3hUcW11TmcxUXRYSlJaYTZ4TzdOdjI0YlBsN0RiOVJYZHNqT1VkVHlxYzJZMFRJSmhRRFM?oc=5",
+  "source": "GlobeNewswire",
+  "date": "2026-11-24T21:01:00+00:00",
+  "summary": "",
+  "category": "Regulatory",
+  "region": "US",
+  "tier": 1,
+  "kind": "press release"
+ },
+ {
+  "id": "67a4227623a4",
+  "title": "Multidimensional transdiagnostic inventory of psychopathology: development and initial validation",
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPUThMNTMyb2NnWXAzaTNUQW45eThPaGtYOFk1clJOR09tVDA1eTJKLU5NX21YMmk3dU1wZU13UTdsYXY2QXlCdjVhN3M3akUxWUVCQ1pwWXlZYk9Qd3ZlbXN5VGUtY1BGN1RTZWVsOVd2TWFPcV9lc1l6dThuNWhpYnhFbEVONGZpdzJHREpEN2RvWW13UXBWYkQweTQzR2Y2TmVxNGZqZHZfNHlfblJKeDV2VHFJQW8yY1REVlRaZ3FXWHh6TDdKbFd0Q1JVZ00wUmltTW1wLXdQNUFCaVRSd1ZUX3FwcnliXzNVT09DYTNaNm92Zmx4aWc0NnJSVmE4ZnJHc1lYQllFcE85V09nMkF2c1pES2s?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T20:28:39+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
  },
  {
   "id": "7e555b516ed6",
@@ -780,7 +1557,10 @@
   "source": "News-Medical",
   "date": "2026-11-24T18:45:00+00:00",
   "summary": "",
-  "category": "Science & Trials"
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "42b78108b157",
@@ -799,6 +1579,18 @@
   "date": "2026-11-24T18:36:35+00:00",
   "summary": "",
   "category": "Funding & Deals"
+ },
+ {
+  "id": "89fe998931df",
+  "title": "Popular weight loss drugs linked to higher breast density on mammograms",
+  "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOEpuenNORzVXTHpBcFNFNTZ3Sm5qV2hRb0hYTDg0Y3E4Mkp3UEpvZEhEamkwbXFYU1BBaTB0ZHdCOEFkUWlsQTNjbEItT2JHRmJJNjk4TS1SQ05FWTM3eGJCYm8yVmlTd1hldGFCVEcwSnRVbFJGcWxHTFZoS2RIcEttWF9RS3JUX1g5NzFhaUFRcUhJaUVsUnEtWmYxdDdwNkRxUEhPNXM1RHozU01sOFdndnMzRE5ydXJV?oc=5",
+  "source": "News-Medical",
+  "date": "2026-11-24T18:34:00+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "Europe",
+  "tier": 2,
+  "kind": "news"
  },
  {
   "id": "17be93fb9a7e",
@@ -855,6 +1647,36 @@
   "category": "Science & Trials"
  },
  {
+  "id": "de93ca41d43d",
+  "title": "Endoscopic and histopathologic findings in adults with iron deficiency anemia: the role of age",
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQeWlWSEpJN3lvZTBqU1JvbDRxSm56aW5oUjhmVHhFRVFJTEc1aTRjU3JIazZteEpLWE1QakFMVXFBMVU0WE54bGJnZEU0X1RCSlc1LURhRDNqT3IwUzdHTThndExYWWh4bXhydURjUlE2WFE3R1pUa245X0JpVjNZaTlRaUlaY2x5N2VxZ1hRN0xLYnpLeGVSZUVUcWJoQWdvWkxOU3J1TDBrYlZSSUpTUkpsdThKWTcyVVF2eEJJczA4V2tHN0E5bGhaMzFlRERRa09PVnQzZXFFRnRJNUJlWFNZMkpDRExteE1QdHFGS0U3UURsTUxnNFNJaWVsQ1Nac3dPVkNyUE9kZWREYWZfUTJMaVQ4MVk?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T15:21:16+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "02e8230a81d5",
+  "title": "Diffuse Cavernous Hemangioma of the Rectum Diagnosed after a 15-year History of Recurrent Gastrointestinal Bleeding: A Case Report",
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQXBkN0JlYTgxc1U5cWVnaXVCbjR1RnpDSXNnZy1GVFlMMmlmSURueFhtUFZiN0phUUVzOUZlMGYtU3ZjSVBfbnFnMUdXenRrclp1STNmb1ZYV2lMSTZSTnlEX2pua0xtTHlQbFpiMDMyTG9rSjVLY1puRGNvR190bGFocWxwUTlmRUNQb004cEN1aHhqanZjMndvMGJvdEhJczlUc1FVbTBLUVRSYkZ6WFVCdXdxNl80VTVWdmJSazVrczYxV1ZmSUx6SnlackZCVnBhaldQM1h4XzlXbVNoZ2ZmT1RUbDliX3k3TUx3RmdDb0ZHZWlBUFFMa0NfWk1Wc2FlOGxGX3F6Uk1NTnB0UUdXUTBKWDg?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T15:21:15+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "a14c2fc7a7c2",
+  "title": "NIH diagnostics accelerator enables first-ever FDA authorization for a point-of-care test for active syphilis",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTBaSFRUNFdsckNWOGhXN1l6SEVyY05haGgzUElQWVJtRTBZY3ZfZmc5Z2xWTXpWNUdWV1UzNXVkekFCSW9Uc2RYTEV4RGdmOS1NeFUyeGM2dXV0Y0s1LUxlTnZEdG42SHFGQl9xbzZuY291MU9VbW1mcGRiRmlMaExzVk1uWmZfbTE5am1teXNZUFdpU1k3MTQ1U2lSbktPU0tvRW5KSVY4ekNrZW1zMUhJci1TNTN0aHU1NVpUaE1ZbHdqUEZOS1lmM2pmdVdxY0RjZ24xc3dhdw?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T15:17:57+00:00",
+  "summary": "",
+  "category": "Regulatory",
+  "region": "US"
+ },
+ {
   "id": "5d9480aa37b3",
   "title": "Combining GEP Testing and ctDNA for High-Risk Melanoma Surveillance",
   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOazVqaEJhekpnM1JSOTVpcFU0ZUhWaGR4UTRjb19JOUEzR211RUc3Ul8wSXlsSWJQdENlOUllR0dtWURheGlNc1VLY1dkZVNQeUF1amh1RjQtZzVWVlRBTEZEUzR4MVJha1dxRVdGak9hMXVYWGR6SENuZTMxOWFKbEI0Y1hmVEM5YXJ2ZXpiN3BxdTktMWlXX2tIQnFhaVo5dmc1aVRKbFk?oc=5",
@@ -871,6 +1693,46 @@
   "date": "2026-11-24T12:27:47+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "04a1489b12af",
+  "title": "Accuracy of ultrasound in diagnosing anterior talofibular ligament injury: a meta-analysis",
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOOVVJcmNlaG5pdXA0cTNLbGhQMnlWUVd4NlRiRGFEclo4QzFQQmM4VXR2eDJ3TUhfYWYzaGxoaWkydmNHazBiTlVCQy01dU81MTlSeHJFZW4tUXhnLVpFMnBnTHVCX0l0ZnJrb01xXzl1RVBiZS04TkFuTXJ0amZrY3gtQ2MwS3pGMXUtYzd5aDExT0JPYURGOElhN05GdGpVdm5lbl95QkRHRjN5ODBRNW1tcjUwUkcySzhKUVNzWEZwRUc1WEw0UUFFb2U3THpHVHF0c0tiRmQtd1lRbS1mbEJ2ZTRtZEhsbGNDNzZ6bi1kOHFEbU02WW1KQTU2VnVHZDRETzNqMXZDOEROa0dVNTZkMXkyU2s?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T12:18:53+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "d765cd5087a3",
+  "title": "Significant Differences in the Presentation, Diagnosis, and Management of Juvenile Osteochondritis Dissecans Exist Among Asia-Pacific and European Surgeons",
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOeDktZWFESEpHcFJrMHRKMFpYU1hUb0lHNVY4UmQtSW43aTVpYjlNRUtTZkhyQzJNNEJKejJ3YWJkVjNkbTFLVlBFaTYwY0pNSkVSbnBPS2JsWkFrRHREUmh3b25jeGFmUGFJVmZFNGEtVC1GZjJUQzR1NkFMa2dOOEJDWGNHbVlvZFpkeU1aazNqQ0FzWm1aZjdKa1MxbE5SSE5xTDA1cEFid1c1TFItUUpGSXo0SlBseDlSRDI3NXo0eWIzenVKZXhJZ3N4SDJxVVFLY3FJVVptMFBRcGJkaVMweUhBOWlsWjk0bGpWT1FXMndFWWFEam5lbnRkQTV6OXJ3TWk2S2MwLVE4Y2Uzc3ZOdWZYbFE?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T12:18:51+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "a2ee1c49fc3c",
+  "title": "Diagnostic Musculoskeletal Ultrasound in the Evaluation of the Extensor Digitorum Longus",
+  "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVlhFQjlVUzNMRjFFdlBkbWxTZmxicDNJenZRUi1YZXp0VUpnZHBUOWozZEtjT2ZBOU4xVVNKLW9XaE05ZnJscHhsbUxlTlZaTE1jcXJXZ3ZncXdMdnFsbkthVEpNNHZad2ZXZ1BsX01xcEx1aE0tbE93bURDbTdrZ2xZaDFRWjkxb0hmWkNrakt3VVcxQk50NGVyZEttMWdzald6N2wzXzJrSDAwZG1kSjRMRFZyMkZLZkU1OWRpQTEwMUNtN2ZETkp4UnY2SDdLVTUwZmh2RVoxa3hJRmR6MEo0Z251amh1SmZJc0VXR2c4MTA3OGtwajFLUkQwR3RYNk9HOGJyRjlDZ2FoRGV5ZE1LV1ZLUUk?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T12:18:39+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
+  "id": "eb399e9c5b73",
+  "title": "Bidirectional regulatory roles of COMMD1 in tumorigenesis and progression: Translational prospects as a diagnostic and therapeutic target (Review)",
+  "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNVUNxLXU5YWI2LWppNG92M21aT0EzNEx0Rmk5RGxHeHdQSE9kYnNlNGpya0RPRlhZMmVRcjBUdW5RV2JvN25KakVxb2FwY1FjODh2S3l6MTlTbHRZamlqYWtVYUJSU09CLUNXTUppOFVYYlJJc3E5TUtZRUhIby1ENlBLYTd1ZGRER09oOG8tZ1dOTWl6Z1F0WWtoSk5yU3NadHQ2bzdWWVdkVEt5ZWp3RDdRVkJlckpyTFZ4QVhwZlN5Uld0TG5pa2o2TlFFQ0h0Uk1wUjRVSXRrOTJORzJJMU9LOXNBMEVDWnpMT19wS2xmbUpHUWlJNFlIbHRJVnJ3UU1aZFZveFVCTTc2NGRyb3Jzank3TUlDVGwyLTVGdEc?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T12:11:15+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
  },
  {
   "id": "5a386dc9d058",
@@ -1017,6 +1879,26 @@
   "category": "Science & Trials"
  },
  {
+  "id": "6068d5477d7d",
+  "title": "Acute Cardiac Biomarker Responses to High-Intensity Interval and Continuous Running Under Matched Physiological Load in Middle-Aged Recreational Men",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SMVBYNzNGUjNTUnF2dG1ERGtuMXpMVHJ3eU5Uc2haeXFxRk9lRWtGaENobXRCdUZhU1o0RzUwV0txczU5TS05VW95Rm9KTjBQWnc4?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T08:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "US"
+ },
+ {
+  "id": "111769d8e4a4",
+  "title": "Stage-Dependent Associations of Amyloid Pathology and White Matter Hyperintensities With Cognitive Decline Across the Clinical Continuum",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zZlNsdTB3TVBGY2tYb1FDbHg2QnZadjBQVDFkMEZhcXlZMTN1TUFoWHZXRzZTaU9rSzRjbmdBOFh1UDNaOWlja1Z1UEhMOEJDcGFV?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T08:00:00+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
   "id": "ae152b098db7",
   "title": "MCED and Adivasi Development Deptt organise FoSTaC workshop",
   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlZmZmFTV3NoVkdjS05Wa1Jwdm1HdF9PZXhJanNDNENvbmVnRDNNNTRUN056ckkxVVJCVlNteDV6MmZyV2VRay1lOHBVMHhOZGlMamk1OVVvOHoxeE5zNWNybTZqR3ZKUEw2MG9DaG1Ob1dCbEVxcjZCdHRoOFlPaU9qbmFPakQwSl9TQ01xX3FQbGVQeUh1Q0M3MWFvN0RudGNBZ1JzUmR4UnFlcWc?oc=5",
@@ -1053,6 +1935,16 @@
   "category": "Industry"
  },
  {
+  "id": "d10d9cf399aa",
+  "title": "Exhaled Breath Condensate-Derived Extracellular Vesicles Isolated via Nanobody-SpyTag3 Fusion Proteins Enable Lung Cancer Diagnosis",
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85UWtRRXlMQ01hRTdtQVkwRWwxalUtWTUxREQxODhKZjBRQklsQVN6QU1pVHFISTc5dTZFOTRzVTBJM0tjVGdESHdpUzF1NUVyQmc?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-24T02:37:10+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
+ },
+ {
   "id": "b67801894497",
   "title": "Postoperative ctDNA Detection Predicts Colorectal Peritoneal Metastasis Recurrence After Surgery",
   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUE85d1NONnpyMWszUlFQdVh0YXMtRzRkOGJVaEVtaGFrdW9IX1VJXzZQd0xRamROOVFLRzI3cUxmUm1XLWpWeldmaHVFWldueVAzY0M5ZjFLZ1FkZktkWTRTZnBTUEhFc2lUeV9LNE1teFRZaWkyRjNxbFN6NE5iRDF4YXNXVk91WkpUb0tFanlCV0NyREstWlJMeGJyYUFiZTVQRGZka0NqSGkyMXA1TEdIbDFUOEdDczUzVENn?oc=5",
@@ -1069,6 +1961,78 @@
   "date": "2026-11-24T00:00:00+00:00",
   "summary": "Cureus",
   "category": "Science & Trials"
+ },
+ {
+  "id": "21e98ac07768",
+  "title": "IgG reactivity with Strongyloides venezuelensis surface antigens: Potential diagnostic target in immunocompromised patients.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43078419/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-24T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "9efcdaf12043",
+  "title": "CAEBV and EBV-HLH: serological characteristics and predictive biomarkers for differential diagnosis.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43078418/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-24T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "d3500d55a000",
+  "title": "Sexually transmitted infections, behavioural risks, and uptake of sexual health services in Britain from 2010 to 2024: findings from the repeated cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43078111/",
+  "source": "Lancet (London, England)",
+  "date": "2026-11-24T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "78172a758621",
+  "title": "Barcode-based paper analytical device for point-of-care chloride detection with user-independent readout.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43076502/",
+  "source": "The Analyst",
+  "date": "2026-11-24T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "d38d999fc65e",
+  "title": "Bioinspired imidazole-based sensing platform for specific acrolein detection with deep-learning assistance.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43097946/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-24T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "10d51ca4f955",
+  "title": "Point-of-care sensing technologies for urinary lead detection: A systematic review.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43097839/",
+  "source": "Talanta",
+  "date": "2026-11-24T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
  },
  {
   "id": "352f281169d5",
@@ -1485,6 +2449,90 @@
   "category": "Science & Trials"
  },
  {
+  "id": "9092345136d6",
+  "title": "Lead-screw-driven nucleic acid extraction enables a low-instrumentation Dual-CRISPR sensor for point-of-care subtyping of HSV-1 and HSV-2.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43085115/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "08e0e2d1f156",
+  "title": "Detection of MicroRNA-34a in blood plasma with a duplex-specific nuclease amplified paper lateral flow assay.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43085114/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "20f442f77a93",
+  "title": "Transcription factor subtype governs response and resistance to DLL3-directed T cell engagement in small cell lung cancer.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43072366/",
+  "source": "Cancer cell",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "c7b8c0823548",
+  "title": "A cell-free ERR\u03b3-TOXICITY biosensor mimicking the nuclear receptor/coactivator interaction for the rapid detection of ERR\u03b3-disrupting effects.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43071408/",
+  "source": "The Analyst",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "439cd4e33b6a",
+  "title": "Probing nanoscale DNA fingerprints and hybridization with a graphene plasmonic biosensor.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43070850/",
+  "source": "Nanoscale",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "b4ad0ea90eba",
+  "title": "Magnetic nanoparticle-based enrichment and SERS-labelled sandwich immunoassay for on-chip sensitive bacteria detection.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43070276/",
+  "source": "The Analyst",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "071db88b4a7f",
+  "title": "Boronic acid-directed antibody modification meets machine learning: a paper-based electrochemical sensor for dual respiratory virus antigens.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43097836/",
+  "source": "Talanta",
+  "date": "2026-11-23T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
   "id": "3168e7be4104",
   "title": "Liquid Biopsy Detects TP53 Mutations in Bangladeshi Liver Cancer Patients",
   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcktpWHlGVWQ3QmZfNmdTeTFzRjU1aDZhWFNLcmhidnJNb2Y0WUppNzJVYkpMU2ZwbjVFU1dwWE5GOXRnRzFpTExZWkRVVlhqNXEzZVYzQXMtQ0VkckNZaTM5Z21WNnhVMl9vbjVQZlJvY1NFUUR4Z0ZwS0xmU3h4YXlDLXNTRmJUYXVDZDBnMTN2Rm1ZcFlqYVVpeC1VMHM?oc=5",
@@ -1521,6 +2569,30 @@
   "category": "Industry"
  },
  {
+  "id": "7f364f8e05d5",
+  "title": "GO/AuNSs-functionalized hollow annular-core fiber SERS sensor for sensitive detection of trace Hg(2+) in sweat.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43072022/",
+  "source": "Talanta",
+  "date": "2026-11-22T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "ee5eebbaacb0",
+  "title": "Corrigendum to \"Identification of serum phosphatidylinositol glycan anchor biosynthesis class U protein as diagnostic biomarkers for breast cancer\" [Clin. Chim. Acta 569 (2025) 120183].",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43068925/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-22T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
   "id": "0cb3598318ce",
   "title": "Medicare could cover FDA-cleared Alzheimer's blood tests in 2028 if Congress passes the bipartisan ASAP Act",
   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNkYyYTBPMzV6dktxMmtFaGRXT1ZkeVZmV1VnR2U0eEx1TnNMOFo3NEtKWlpLOWpibU5vYkg5YTU3b1Vtb09nbTFvM1BHYzNrcGVCd1hWRjVWUDlyX1BSekNMRTIzUUZvV1NxX1lhVXFRSHZJQWtWRld1UUVRTFEydzF5NG5mdnl0?oc=5",
@@ -1528,6 +2600,16 @@
   "date": "2026-11-21T17:00:21+00:00",
   "summary": "",
   "category": "Regulatory"
+ },
+ {
+  "id": "a9abdcc9b4a0",
+  "title": "Transcription Factor Response Element-Driven Reporter Assays as Novel Diagnostic Method to Detect Periprosthetic Joint Infection",
+  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93M01mNTBGTWpGdWFXRndJQVdMQWRTekFxRlA4UllhTTNPdV83X2d2YU5IdjZ2RE1kSkhpLTVQekhjNXg4Q3I0T19sRExESnk5SGc?oc=5",
+  "source": "National Institutes of Health (NIH) | (.gov)",
+  "date": "2026-11-21T16:37:05+00:00",
+  "summary": "",
+  "category": "Industry",
+  "region": "US"
  },
  {
   "id": "295c91d97432",
@@ -1627,6 +2709,52 @@
   "date": "2026-11-21T00:36:08+00:00",
   "summary": "",
   "category": "Industry"
+ },
+ {
+  "id": "2b215f69b416",
+  "title": "RTIL-based agarose hydrogels for contactless long-term amperometric detection of volatile thiols in wine.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43078032/",
+  "source": "Talanta",
+  "date": "2026-11-21T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "579c2a3a9ade",
+  "title": "Glutathione detection in blood components: Analytical methods, biosensing strategies, and microfluidic opportunities.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43067052/",
+  "source": "Talanta",
+  "date": "2026-11-21T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "ba549fbf7dd1",
+  "title": "A novel dual-responsive fluorescent probe for discriminative detection and imaging of ONOO(-) and Cu(2+)/H(2)S and its portable applications.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43067051/",
+  "source": "Talanta",
+  "date": "2026-11-21T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "f896a9993fcb",
+  "title": "Agatha Christie: medicine, diagnosis, and the art of detection.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43057261/",
+  "source": "Lancet (London, England)",
+  "date": "2026-11-21T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
  },
  {
   "id": "71652fd679ef",
@@ -1845,6 +2973,66 @@
   "category": "Science & Trials"
  },
  {
+  "id": "a03b62ac383e",
+  "title": "Programmable nuclease-engineered surface-enhanced Raman scattering biosensors: Mechanisms, designs, and cutting-edge applications.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43078029/",
+  "source": "Talanta",
+  "date": "2026-11-20T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "2b8621deb415",
+  "title": "Model-informed characterization and promoter tuning of a PP_2046-based biosensor responsive to 1,4-butanediol.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43072119/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-20T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "251fcd5dd747",
+  "title": "A 96-well dual-sample-preparation LC-MS/MS method for integrated quantification of eight urinary catecholamines and metabolites.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43064274/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-20T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "b4c7f2588dcd",
+  "title": "Optimization of a stage-wise laboratory screening algorithm and population-specific cut-offs for thalassemia in a Vietnamese hospital-based dataset.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43064273/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-20T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "2111d47464ee",
+  "title": "Current approaches and future directions of Endothelin-1 detection.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43064272/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-20T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
   "id": "390c8aa60007",
   "title": "Guthrie celebrates donors who contributed to new breast cancer screening system at Owego office",
   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZTFWaTYydjFNZW5sMjZUZzQ1czJsWWtnVWdxeHNReHpHX3MwNFdDMGNTUDdVSUNFSmRnSnRWQVRWb2NubUxjYU0yYUVPUU93OFcyOTdLOUxPcjdvWmJPYi1qaHkwNERzYlB2OTZlZFcxdFFKNXpxc2VReGV0aDlzOS16b2JpRzBCRmdtektYZFlheGNOYXhlYnhVOGdzbTBBT1RBUC1lUjhBdV9EWG9KZmFNcGZ6NlFkRnV0b2ZrUdIB0wFBVV95cUxPOEVVRDhGSEdCamIxSUJCVzB2WUdrWU80Ri1IRUcwZFJJX0tHeFl6T0xNMWRTeHhnUjdkdkVmczh1RGxnclp2UTh2MmlERlQ0eUJGX3ZhU1BvUWVwR09GSmQxZjVDeVlTbHNXbVUyU0xpNmVpc29WeGJTQkFUX0NJMFo4cnF0X3lnX1dBNHFqWlpIbk1hQWk5SGlYVVlqMnFnT28tVlVneXpwQjN6eUw0Y2ZlbEljOTBsZnMyQjd2dWVObU00Zm82SU1uMVhsaUF5UHJZ?oc=5",
@@ -2059,6 +3247,58 @@
   "date": "2026-11-19T00:00:00+00:00",
   "summary": "Cancers",
   "category": "Science & Trials"
+ },
+ {
+  "id": "d80f07528e39",
+  "title": "Early on-site diagnosis of citrus Huanglongbing via a microfluidic electrochemical biosensor for dual-modal detection of bacterial OmpA and host-derived H(2)O(2).",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43066987/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-19T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "1377eb958a44",
+  "title": "Elevated serum levels of interferon-stimulated gene 15 are associated with the prevalence of hypertriglyceridemia.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43057507/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-19T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "ae650cd48489",
+  "title": "Extracellular vesicle surface glycosylation in clinical chemistry: Biological mechanisms, analytical challenges, and translational evidence.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43057506/",
+  "source": "Clinica chimica acta; international journal of clinical chemistry",
+  "date": "2026-11-19T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "9755e4d5d19f",
+  "title": "Spontaneous coronary artery dissection: implications for women's health, clinical care, and future research.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43057279/",
+  "source": "Lancet (London, England)",
+  "date": "2026-11-19T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
+ },
+ {
+  "id": "9d7cc099105d",
+  "title": "Ru nanoparticles confined in yolk-shell SiO(2) hollow spheres with boosted activity for smartphone-assisted colorimetric assay of dopamine at neutral pH.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43056433/",
+  "source": "The Analyst",
+  "date": "2026-11-19T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Global"
  },
  {
   "id": "85597d95ebea",
@@ -2277,6 +3517,42 @@
   "category": "Science & Trials"
  },
  {
+  "id": "c5dcb4bd9938",
+  "title": "The 3D-MAGIC Chip: An integrated 3D-printed platform with in situ lyophilized reagents for naked-eye multiplex colorimetric detection of foodborne pathogens.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43072019/",
+  "source": "Talanta",
+  "date": "2026-11-18T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "4724416f40be",
+  "title": "Thiol-mediated activity inhibition of Fe-Zn dual-atom nanozymes for the selective detection of carbosulfan.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43067050/",
+  "source": "Talanta",
+  "date": "2026-11-18T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "89ba37665e0c",
+  "title": "Enhancing reliability of electrochemical biosensors via in situ electrochemical filtration using carbon micromesh electrode.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43063738/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-18T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
   "id": "d073198cb952",
   "title": "Grey Matters Health achieves medicare and medicaid enrollment for Florida NovaScan Clinic",
   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPREk2Z2RzY1c2dUFIQkpJeDUyTkdDWjJCaWU5VEY4RGZMQ25PQ3ZDLTdzYkdqbzZ0YUdIREJoWE1Mb0ZIQ3NfQ1dsNHl2dloxRFBJcXJEemd2X1IwNXVPN09GWGhXWDhTSEdNekRjR0hXUEVIdXJBWm9LeERjMFZhX0JmTVNISlVXbjd2YjJyM2oxRmdZcFI2OHloTnlnd0U2UXBUQmNSLUNTamh6LXlaYlRzUW9sazJVWnhxYW1wQjNBVjFjX0N2TDBPLU9kTWlXMjVTYjdKcndKYnl2QldvUmlEbXZEVFE?oc=5",
@@ -2392,6 +3668,42 @@
   "date": "2026-11-17T00:00:00+00:00",
   "summary": "Diagnostics (Basel, Switzerland)",
   "category": "Science & Trials"
+ },
+ {
+  "id": "d876d636c993",
+  "title": "Electrical impedance spectroscopy combined with Cole-Cole and CPE analyses reveals subcellular biophysical heterogeneity in lung cancer cell lines.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43072120/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-17T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "58945fa12006",
+  "title": "Rapid, low-cost colorimetric capillary-driven immunoassay for screening of bacterial STIs: Chlamydia, syphilis, and gonorrhea.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43068661/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-17T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "d8297116f74b",
+  "title": "Fiber based WS(2) quantum dots/MOF fluorescence and organic photoelectrochemical transistor dual-mode glucose sensors.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43063739/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-17T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
  },
  {
   "id": "0e0d5374c92e",
@@ -2554,6 +3866,18 @@
   "date": "2026-11-16T00:00:00+00:00",
   "summary": "Antioxidants (Basel, Switzerland)",
   "category": "Science & Trials"
+ },
+ {
+  "id": "d25325bb0397",
+  "title": "Bioinspired trimetallic optimised Bi((0.10))CuFe(2)O(4) nanoparticle-based interface for selective and sensitive impedimetric detection of C-reactive protein for tuberculosis monitoring.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43067049/",
+  "source": "Talanta",
+  "date": "2026-11-16T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
  },
  {
   "id": "be734c23adae",
@@ -2761,6 +4085,30 @@
   "date": "2026-11-13T08:00:00+00:00",
   "summary": "",
   "category": "Regulatory"
+ },
+ {
+  "id": "11db1f149a5d",
+  "title": "Hydrogen peroxide in redox biology: Compartmentalized signaling, pathophysiological roles, and quantitative detection.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43085137/",
+  "source": "Talanta",
+  "date": "2026-11-12T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
+ },
+ {
+  "id": "393f9d7c79cc",
+  "title": "Beyond steric blocking: Evidence for interfacial reorganization in signal-on impedimetric detection of Listeria monocytogenes.",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/43072118/",
+  "source": "Biosensors & bioelectronics",
+  "date": "2026-11-12T00:00:00+00:00",
+  "summary": "",
+  "category": "Science & Trials",
+  "region": "Europe",
+  "tier": 3,
+  "kind": "journal"
  },
  {
   "id": "23919008523a",

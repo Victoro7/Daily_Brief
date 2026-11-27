@@ -12,7 +12,7 @@ import json
 import os
 import re
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 
 import feedparser
 import markdown
@@ -29,37 +29,120 @@ UA = {"User-Agent": "dx-desk/1.0 (personal research tool)"}
 NOW = dt.datetime.now(dt.timezone.utc)
 
 # ---------------------------------------------------------------- SOURCES --
-# Edit these lists to tune your niche. Broken feeds are skipped, not fatal.
+# Focus: diagnostics and point-of-care testing as a whole. Breast cancer is one
+# query among many, not the frame. Priority regions: Canada, US, Europe.
+# Broken feeds are skipped, not fatal.
 
+# Google News search. Results are kept only if the publisher can be placed in SOURCES.
 GOOGLE_QUERIES = [
-    '"liquid biopsy" OR "multi-cancer early detection" OR MCED',
-    '"breast cancer" (diagnostic OR screening OR "blood test" OR mammography)',
-    '"cancer diagnostics" (raises OR funding OR "Series A" OR "Series B" OR acquisition)',
-    '"companion diagnostic" OR "in vitro diagnostic" OR "laboratory developed test"',
-    'diagnostic ("510(k)" OR PMA OR "breakthrough device" OR "de novo") cancer',
+    '"point-of-care" (test OR testing OR diagnostic)',
+    '"in vitro diagnostic" OR "companion diagnostic" OR "laboratory developed test"',
+    '"liquid biopsy" OR "multi-cancer early detection" OR MCED OR ctDNA',
+    'diagnostic ("510(k)" OR PMA OR "breakthrough device" OR "de novo" OR "CE mark" OR "Health Canada")',
+    '(diagnostic OR "point-of-care") (raises OR funding OR "Series A" OR "Series B" OR acquisition)',
+    '(diagnostic OR "point-of-care") (raises OR funding OR acquisition) (Canada OR Canadian OR Europe OR European)',
+    '(CMS OR Medicare OR MolDX OR USPSTF OR "Health Canada" OR "European Commission") (diagnostic OR "point-of-care" OR screening)',
     'AI (pathology OR mammography OR radiology) FDA clearance cancer',
-    '(CMS OR Medicare OR MolDX OR USPSTF) (diagnostic OR screening OR "early detection")',
-    '"circulating tumor DNA" OR ctDNA OR "minimal residual disease"',
+    '"breast cancer" (diagnostic OR screening OR "blood test" OR mammography)',
+    '(diagnostic OR "point-of-care" OR "in vitro diagnostic") (China OR Chinese) (approval OR NMPA OR funding OR raises OR acquisition)',
+    'site:nmpa.gov.cn (diagnostic OR "in vitro diagnostic" OR "point-of-care")',
+    'site:canada.ca (diagnostic OR "point-of-care" OR "medical device")',
+    'site:ema.europa.eu (diagnostic OR "in vitro diagnostic" OR "point-of-care")',
+    'site:nih.gov (diagnostic OR "point-of-care" OR biomarker)',
 ]
 
-# General feeds are filtered for diagnostics relevance (INCLUDE below).
-TRADE_FEEDS = {
+# Publisher table: domain -> (region, trust tier, kind). Subdomains match.
+#   tier 3 = regulators, journals, top-tier newsrooms
+#   tier 2 = specialist trade and national media
+#   tier 1 = press-release wires and other outlets (allowed, lowest trust)
+SOURCES = {
+    # regulators and health bodies
+    "fda.gov": ("US", 3, "regulator"), "cms.gov": ("US", 3, "regulator"),
+    "nih.gov": ("US", 3, "regulator"), "cdc.gov": ("US", 3, "regulator"),
+    "canada.ca": ("Canada", 3, "regulator"), "ema.europa.eu": ("Europe", 3, "regulator"),
+    "europa.eu": ("Europe", 3, "regulator"), "who.int": ("Europe", 3, "regulator"),
+    "nmpa.gov.cn": ("China", 3, "regulator"),
+    # wires and top-tier journalism (Reuters, Nature and FT placed by headquarters)
+    "reuters.com": ("Europe", 3, "news"), "nature.com": ("Europe", 3, "news"),
+    "science.org": ("US", 3, "news"), "ft.com": ("Europe", 3, "news"),
+    "wsj.com": ("US", 3, "news"), "nytimes.com": ("US", 3, "news"),
+    "bloomberg.com": ("US", 3, "news"), "theglobeandmail.com": ("Canada", 3, "news"),
+    # specialist trade and national media
+    "statnews.com": ("US", 2, "news"), "fiercebiotech.com": ("US", 2, "news"),
+    "fiercehealthcare.com": ("US", 2, "news"), "medcitynews.com": ("US", 2, "news"),
+    "genomeweb.com": ("US", 2, "news"), "biopharmadive.com": ("US", 2, "news"),
+    "endpts.com": ("US", 2, "news"), "techcrunch.com": ("US", 2, "news"),
+    "auntminnie.com": ("US", 2, "news"), "diagnosticimaging.com": ("US", 2, "news"),
+    "radiologybusiness.com": ("US", 2, "news"), "clpmag.com": ("US", 2, "news"),
+    "onclive.com": ("US", 2, "news"), "medpagetoday.com": ("US", 2, "news"),
+    "medscape.com": ("US", 2, "news"), "ascopost.com": ("US", 2, "news"),
+    "emjreviews.com": ("Europe", 2, "news"), "cbc.ca": ("Canada", 2, "news"),
+    "financialpost.com": ("Canada", 2, "news"),
+    "dotmed.com": ("US", 2, "news"), "itnonline.com": ("US", 2, "news"),
+    "mdlinx.com": ("US", 2, "news"), "mpo-mag.com": ("US", 2, "news"),
+    "news-medical.net": ("Europe", 2, "news"), "sciencebusiness.net": ("Europe", 2, "news"),
+    "unite.ai": ("US", 1, "news"),
+    "xinhuanet.com": ("China", 2, "news"), "chinadaily.com.cn": ("China", 2, "news"),
+    "globaltimes.cn": ("China", 2, "news"), "scmp.com": ("China", 2, "news"),
+    "caixin.com": ("China", 2, "news"),
+    # press-release wires
+    "prnewswire.com": ("US", 1, "press release"), "businesswire.com": ("US", 1, "press release"),
+    "globenewswire.com": ("US", 1, "press release"), "accesswire.com": ("US", 1, "press release"),
+    "einpresswire.com": ("US", 1, "press release"), "prweb.com": ("US", 1, "press release"),
+    "newswire.ca": ("Canada", 1, "press release"), "newsfilecorp.com": ("Canada", 1, "press release"),
+}
+# Unlisted outlets are placed by country-code domain (e.g. .ca, .de, .cn).
+# Unlisted generic domains (.com, .org, .net) are dropped.
+TLD_REGION = {
+    "ca": "Canada", "us": "US", "cn": "China", "hk": "China", "eu": "Europe", "uk": "Europe",
+    "de": "Europe", "fr": "Europe", "it": "Europe", "es": "Europe", "nl": "Europe",
+    "se": "Europe", "no": "Europe", "dk": "Europe", "fi": "Europe", "ie": "Europe",
+    "ch": "Europe", "at": "Europe", "be": "Europe", "pt": "Europe", "pl": "Europe",
+    "gr": "Europe", "cz": "Europe", "hu": "Europe", "ro": "Europe",
+}
+REGIONS = {"US", "Canada", "Europe", "China"}      # only items from these are kept
+
+
+def in_scope(item):
+    """Shown and briefed only if placed in REGIONS, tagged by the current schema,
+    and on-topic. Journal articles are matched on abstract terms by PubMed, so they skip
+    the title keyword check."""
+    if item.get("region") not in REGIONS or "tier" not in item:
+        return False
+    return item.get("kind") == "journal" or bool(INCLUDE.search(item["title"]))
+# Hosts blocked even if under a listed domain: PubMed records reach us through
+# the journal gate instead, so Google's copies of them are skipped.
+DENIED_HOSTS = {"pubmed.ncbi.nlm.nih.gov", "pmc.ncbi.nlm.nih.gov", "ncbi.nlm.nih.gov"}
+
+# Direct feeds: label -> url. Publisher region and trust come from SOURCES.
+# Filtered by INCLUDE below.
+DIRECT_FEEDS = {
     "Fierce Biotech": "https://www.fiercebiotech.com/rss/xml",
     "Fierce Healthcare": "https://www.fiercehealthcare.com/rss/xml",
     "STAT": "https://www.statnews.com/feed/",
     "MedCity News": "https://medcitynews.com/feed/",
     "GenomeWeb": "https://www.genomeweb.com/rss.xml",
     "FDA Press": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+    "CMS Newsroom": "https://www.cms.gov/newsroom/rss-feeds",
+    "CBC Health": "https://www.cbc.ca/cmlink/rss-health",
+    "European Commission Health": "https://ec.europa.eu/commission/presscorner/api/rss?language=en&theme=health",
+    "TechCrunch": "https://techcrunch.com/feed/",
 }
 
+# Journal gate: PubMed indexes only vetted journals, so articles are pulled from
+# these titles only. Royal Society of Chemistry and Elsevier (incl. Lancet, Cell Press).
+PUBMED_JOURNALS = [
+    "Lab Chip", "Analyst", "Chem Soc Rev", "Nanoscale", "J Mater Chem B",          # RSC
+    "Lancet", "Lancet Oncol", "Lancet Digit Health", "EBioMedicine", "Cancer Cell",  # Elsevier
+    "Cell Rep Med", "Biosens Bioelectron", "Clin Chim Acta", "Talanta",            # Elsevier
+]
 PUBMED_TERM = (
-    '(("breast neoplasms"[MeSH] OR "breast cancer"[tiab]) AND '
-    '(diagnosis[tiab] OR diagnostic[tiab] OR screening[tiab] OR "liquid biopsy"[tiab] '
-    'OR ctDNA[tiab] OR mammography[tiab])) OR "multi-cancer early detection"[tiab]'
+    "(" + " OR ".join(f'"{j}"[ta]' for j in PUBMED_JOURNALS) + ") AND "
+    '(diagnos*[tiab] OR "point-of-care"[tiab] OR "point of care"[tiab] OR "liquid biopsy"[tiab] '
+    'OR biosensor*[tiab] OR "lateral flow"[tiab] OR ctDNA[tiab])'
 )
 TRIALS_QUERY = {
-    "query.cond": "breast cancer",
-    "query.term": 'diagnostic OR screening OR "liquid biopsy" OR ctDNA',
+    "query.term": 'diagnostic OR "point-of-care" OR "liquid biopsy" OR ctDNA',
     "sort": "LastUpdatePostDate:desc",
     "pageSize": 15,
     "format": "json",
@@ -68,7 +151,8 @@ TRIALS_QUERY = {
 # ----------------------------------------------------------------- RULES ---
 INCLUDE = re.compile(
     r"diagnos|screening|biops|ctdna|early detection|mammogra|patholog|assay|biomarker|"
-    r"companion|in vitro|liquid|sequencing|genomic test|molecular test|\bldt\b|\bivd\b",
+    r"companion|in vitro|liquid|sequencing|genomic test|molecular test|\bldt\b|\bivd\b|"
+    r"point[- ]of[- ]care|\bpoc\b|lateral flow|biosensor|rapid (?:test|diagnostic)",
     re.I,
 )
 EXCLUDE = re.compile(
@@ -114,7 +198,8 @@ def categorize(text):
     return "Industry"
 
 
-def make_item(title, link, source, when, summary="", force_cat=None):
+def make_item(title, link, source, when, summary="", force_cat=None,
+              region=None, tier=1, kind="news"):
     title, summary = clean(title), clean(summary)
     if not title or not link or EXCLUDE.search(title):
         return None
@@ -128,6 +213,9 @@ def make_item(title, link, source, when, summary="", force_cat=None):
         "date": when.isoformat(),
         "summary": summary[:300],
         "category": force_cat or categorize(f"{title} {summary}"),
+        "region": region,
+        "tier": tier,
+        "kind": kind,
     }
 
 
@@ -139,8 +227,24 @@ def entry_date(entry):
     return NOW
 
 
-def fetch_rss(url, label=None, relevance=False):
-    items = []
+def source_info(url):
+    """(region, tier, kind) for a publisher URL, or None if we can't place it."""
+    host = (urlparse(url or "").hostname or "").lower()
+    if not host or host in DENIED_HOSTS:
+        return None
+    for domain, info in SOURCES.items():
+        if host == domain or host.endswith("." + domain):
+            return info
+    region = TLD_REGION.get(host.rsplit(".", 1)[-1])
+    return (region, 1, "news") if region else None
+
+
+def fetch_rss(url, label=None, google=False):
+    items, dropped = [], 0
+    direct = None if google else source_info(url)
+    if not google and direct is None:
+        print(f"[warn] {label or url[:60]}: publisher not in SOURCES, skipped")
+        return items
     try:
         r = requests.get(url, headers=UA, timeout=30)
         r.raise_for_status()
@@ -152,18 +256,26 @@ def fetch_rss(url, label=None, relevance=False):
         title = e.get("title", "")
         summary = e.get("summary", "")
         source = label
-        if not source:                      # Google News: "Headline - Outlet"
+        info = direct
+        if google:                          # Google News: "Headline - Outlet"
+            info = source_info((e.get("source") or {}).get("href"))
+            if info is None:
+                dropped += 1
+                continue
             source = (e.get("source") or {}).get("title")
             if " - " in title:
                 head, tail = title.rsplit(" - ", 1)
                 title, source = head, source or tail
             source = source or "Google News"
-        if relevance and not INCLUDE.search(f"{title} {clean(summary)}"):
+        if not INCLUDE.search(f"{title} {clean(summary)}"):
             continue
-        item = make_item(title, e.get("link"), source, entry_date(e), summary)
+        region, tier, kind = info
+        item = make_item(title, e.get("link"), source, entry_date(e), summary,
+                         region=region, tier=tier, kind=kind)
         if item:
             items.append(item)
-    print(f"[ok] {label or url[:60]}: {len(items)} items")
+    note = f", {dropped} unplaced" if dropped else ""
+    print(f"[ok] {label or url[:60]}: {len(items)} items{note}")
     return items
 
 
@@ -172,7 +284,7 @@ def fetch_google(days):
     for q in GOOGLE_QUERIES:
         url = ("https://news.google.com/rss/search?q="
                f"{quote_plus(q + f' when:{days}d')}&hl=en-US&gl=US&ceid=US:en")
-        items += fetch_rss(url)
+        items += fetch_rss(url, google=True)
     return items
 
 
@@ -182,7 +294,7 @@ def fetch_pubmed():
         base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
         ids = requests.get(base + "esearch.fcgi", headers=UA, timeout=30, params={
             "db": "pubmed", "term": PUBMED_TERM, "reldate": 7, "datetype": "edat",
-            "retmax": 25, "sort": "date", "retmode": "json"}).json()["esearchresult"]["idlist"]
+            "retmax": 80, "sort": "date", "retmode": "json"}).json()["esearchresult"]["idlist"]
         if not ids:
             return items
         res = requests.get(base + "esummary.fcgi", headers=UA, timeout=30, params={
@@ -191,8 +303,10 @@ def fetch_pubmed():
             d = res[uid]
             when = dt.datetime.strptime(d.get("sortpubdate", "")[:10], "%Y/%m/%d").replace(
                 tzinfo=dt.timezone.utc) if d.get("sortpubdate") else NOW
-            item = make_item(d["title"], f"https://pubmed.ncbi.nlm.nih.gov/{uid}/", "PubMed",
-                             when, d.get("fulljournalname", ""), "Science & Trials")
+            # Source is the journal, so readers see where the article was published.
+            item = make_item(d["title"], f"https://pubmed.ncbi.nlm.nih.gov/{uid}/",
+                             d.get("fulljournalname") or "PubMed", when, "", "Science & Trials",
+                             region="Europe", tier=3, kind="journal")
             if item:
                 items.append(item)
     except Exception as exc:                # noqa: BLE001
@@ -212,8 +326,11 @@ def fetch_trials():
             title = p["identificationModule"].get("briefTitle", "")
             updated = p["statusModule"]["lastUpdatePostDateStruct"]["date"]
             when = dt.datetime.strptime(updated[:10], "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
+            if not INCLUDE.search(title):          # the registry query is broad; keep on-topic only
+                continue
             item = make_item(f"Trial update: {title}", f"https://clinicaltrials.gov/study/{nct}",
-                             "ClinicalTrials.gov", when, "", "Science & Trials")
+                             "ClinicalTrials.gov", when, "", "Science & Trials",
+                             region="US", tier=2, kind="registry")
             if item:
                 items.append(item)
     except Exception as exc:                # noqa: BLE001
@@ -242,19 +359,45 @@ def save_store(store):
 
 # ----------------------------------------------------------------- BRIEF ---
 
+PRIORITY_REGIONS = {"US", "Canada", "Europe"}      # favoured; China is kept but not boosted
+COVERAGE_DAYS = 7
 
-def brief_candidates(items):
+
+def tokens(title):
+    return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if len(w) > 3}
+
+
+def coverage(items):
+    """Map item id -> number of distinct outlets carrying a near-identical headline."""
+    cutoff = NOW - dt.timedelta(days=COVERAGE_DAYS)
+    recent = [i for i in items if dt.datetime.fromisoformat(i["date"]) >= cutoff]
+    toks = {i["id"]: tokens(i["title"]) for i in recent}
+    cover = {}
+    for a in recent:
+        ta, outlets = toks[a["id"]], {a["source"]}
+        for b in recent:
+            tb = toks[b["id"]]
+            if b["source"] not in outlets and ta and tb and len(ta & tb) / len(ta | tb) >= 0.5:
+                outlets.add(b["source"])
+        cover[a["id"]] = len(outlets)
+    return cover
+
+
+def priority(i, cover):
+    """Trusted and widely carried stories rank first; US, Canada and Europe get a lift."""
+    s = CAT_WEIGHT.get(i["category"], 1)
+    s += 2 * i.get("tier", 1)                    # tier 1..3 -> +2..+6
+    s += min(cover.get(i["id"], 1) - 1, 4)       # carried by more outlets -> more popular
+    s += 2 if i.get("region") in PRIORITY_REGIONS else 0
+    return s
+
+
+def brief_candidates(items, cover):
     cutoff = NOW - dt.timedelta(hours=BRIEF_HOURS)
     recent = [i for i in items if dt.datetime.fromisoformat(i["date"]) >= cutoff]
     if len(recent) < 15:                    # thin day: fall back to newest items
         recent = items[:40]
-
-    def score(i):
-        s = CAT_WEIGHT.get(i["category"], 1)
-        s += 2 if re.search(r"breast", i["title"], re.I) else 0
-        s += 1 if i["source"] in ("STAT", "Fierce Biotech", "GenomeWeb", "FDA Press") else 0
-        return s
-    return sorted(recent, key=score, reverse=True)[:MAX_BRIEF_ITEMS]
+    return sorted(recent, key=lambda i: priority(i, cover), reverse=True)[:MAX_BRIEF_ITEMS]
 
 
 def make_brief(items, today):
@@ -266,7 +409,7 @@ def make_brief(items, today):
     lines = []
     for n, i in enumerate(items, 1):
         extra = f" | snippet: {i['summary']}" if i["summary"] else ""
-        lines.append(f"[{n}] ({i['category']} | {i['source']} | {i['date'][:10]}) "
+        lines.append(f"[{n}] ({i['category']} | {i['source']} | {i.get('kind', 'news')} | {i['date'][:10]}) "
                      f"{i['title']} | {i['link']}{extra}")
     system = (ROOT / "brief_prompt.txt").read_text().replace("{date}", today)
     client = anthropic.Anthropic(api_key=key)
@@ -446,9 +589,11 @@ def month_label(ym):
     return dt.date.fromisoformat(ym + "-01").strftime("%B %Y")
 
 
-def render_index(items, brief_date):
+def render_index(items, brief_date, cover):
     e = html.escape
     updated = NOW.strftime("%a, %b %-d, %H:%M UTC")
+    # Months newest first; within a month, most trusted and widely carried first.
+    items = sorted(items, key=lambda i: (i["date"][:7], priority(i, cover)), reverse=True)
     srcs = {}
     for i in items:
         srcs[i["source"]] = srcs.get(i["source"], 0) + 1
@@ -518,12 +663,16 @@ def main():
     store = load_store()
     days = 14 if not store else 3           # first run backfills two weeks
     fresh = fetch_google(days) + fetch_pubmed() + fetch_trials()
-    for label, url in TRADE_FEEDS.items():
-        fresh += fetch_rss(url, label, relevance=True)
-    for item in fresh:
-        store.setdefault(item["id"], item)
-    items = save_store(store)
-    print(f"[done] {len(fresh)} fetched, {len(items)} stored")
+    for label, url in DIRECT_FEEDS.items():
+        fresh += fetch_rss(url, label)
+    for item in fresh:                      # refresh copies saved before region/tier tagging
+        if item["id"] not in store or "tier" not in store[item["id"]]:
+            store[item["id"]] = item
+    # Stored items outside the four regions (or from before region tagging) stay in
+    # the file but are not shown or briefed.
+    items = [i for i in save_store(store) if in_scope(i)]
+    cover = coverage(items)
+    print(f"[done] {len(fresh)} fetched, {len(items)} in scope")
 
     today = NOW.strftime("%Y-%m-%d")
     BRIEFS.mkdir(exist_ok=True)
@@ -531,7 +680,7 @@ def main():
     if md_path.exists() and not os.getenv("FORCE_BRIEF"):
         print("[skip] brief already exists for today")
     else:
-        md = make_brief(brief_candidates(items), today)
+        md = make_brief(brief_candidates(items, cover), today)
         if md:
             md_path.write_text(md)
 
@@ -543,7 +692,7 @@ def main():
     if dates:
         latest = (BRIEFS / f"{dates[0]}.md").read_text()
         (ROOT / "brief.html").write_text(render_brief(latest, dates[0], dates))
-    (ROOT / "index.html").write_text(render_index(items, dates[0] if dates else None))
+    (ROOT / "index.html").write_text(render_index(items, dates[0] if dates else None, cover))
 
 
 if __name__ == "__main__":
